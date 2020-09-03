@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.budinbudin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".saraf.sinapsis"></activity>
+        <activity android:name=".saraf.neuron.jenis_jenis_neuron" />
+        <activity android:name=".saraf.neuron.sistem_saraf_fungsi_neuron" />
+        <activity android:name=".saraf.neuron.sistem_saraf_neuron" />
+        <activity android:name=".saraf.sistem_saraf_menu" />
+        <activity android:name=".inti_budin" />
+        <activity android:name=".dasar.peta_konsep" />
+        <activity android:name=".dasar.indikator_keberhasilan" />
+        <activity android:name=".dasar.kompetensi_inti" />
+        <activity android:name=".dasar.kompetensi_dasar" />
+        <activity android:name=".dasar.kata_pengantar" />
+        <activity android:name=".home_screen" />
+        <activity android:name=".splash_screen" />
+    </application>
+
+</manifest>
