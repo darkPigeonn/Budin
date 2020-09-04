@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.budinbudin.R;
 
-public class sinapsis extends AppCompatActivity {
+public class sel_neuroglial extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sinapsis);
+        setContentView(R.layout.activity_sel_neuroglial);
     }
 }
