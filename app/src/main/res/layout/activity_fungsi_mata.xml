@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:background="@drawable/title_mata">
+            android:background="@drawable/title_lidah">
         </ImageView>
 
     </LinearLayout>
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln1"
         android:layout_marginTop="12dp"
-        android:layout_marginStart="176dp">
+        android:layout_marginStart="172dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

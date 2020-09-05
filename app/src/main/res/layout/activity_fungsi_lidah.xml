@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
             android:layout_width="wrap_content"
@@ -19,49 +19,57 @@
             android:scaleY="0.8"
             android:background="@drawable/comp_back_button">
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ln2"
+        android:layout_toEndOf="@id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/title_area_lidah">
+            android:layout_marginTop="19dp"
+            android:background="@drawable/title_lidah">
         </ImageView>
-
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/ln1"
+        android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="12dp"
-        android:layout_marginStart="20dp">
+        android:paddingEnd="18dp"
+        android:layout_marginStart="198dp">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
-            android:scaleX="0.55">
+            android:scaleX="1">
         </Button>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
+        android:id="@+id/ln3"
+        android:layout_below="@id/ln2"
         android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="28dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/content_image_area_lidah">
+            android:background="@drawable/content_lidah">
         </ImageView>
     </LinearLayout>
 
 
     <LinearLayout
-        android:id="@+id/ln3"
-        android:layout_below="@id/ln2"
+        android:id="@+id/ln4"
+        android:layout_below="@id/ln3"
         android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"
