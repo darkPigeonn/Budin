@@ -36,13 +36,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_kata_pengantar">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_indikator_keberhasilan">
         </Button>
     </LinearLayout>
@@ -60,13 +60,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_kompetensi_dasar">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_inti_budin">
         </Button>
     </LinearLayout>
@@ -84,13 +84,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_kompetensi_inti">
         </Button>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_lks">
         </Button>
     </LinearLayout>
@@ -108,12 +108,12 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
             android:background="@drawable/comp_peta_konsep">
         </Button>
         <Button
             android:layout_width="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
             android:layout_height="wrap_content"
             android:background="@drawable/comp_quizziz">
         </Button>

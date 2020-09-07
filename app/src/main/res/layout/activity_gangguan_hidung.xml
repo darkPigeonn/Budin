@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_teks">
+    android:background="@drawable/bckg_7">
 
     <LinearLayout
         android:id="@+id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
             android:layout_width="wrap_content"
@@ -19,22 +19,29 @@
             android:scaleY="0.8"
             android:background="@drawable/comp_back_button">
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ln2"
+        android:layout_toEndOf="@id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="19dp"
             android:background="@drawable/title_gangguan_hidung">
         </ImageView>
-
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/ln1"
+        android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="12dp"
-        android:paddingRight="18dp"
-        android:layout_marginStart="20dp">
+        android:paddingEnd="18dp"
+        android:layout_marginStart="85dp">
         <Button
             android:layout_width="48dp"
             android:layout_height="wrap_content"
@@ -44,11 +51,11 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
+        android:id="@+id/ln3"
+        android:layout_below="@id/ln2"
         android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="132dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -60,8 +67,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln3"
-        android:layout_below="@id/ln2"
+        android:id="@+id/ln4"
+        android:layout_below="@id/ln3"
         android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"

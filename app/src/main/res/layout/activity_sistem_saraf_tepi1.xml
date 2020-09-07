@@ -4,52 +4,60 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_teks">
+    android:background="@drawable/bckg_6">
 
     <LinearLayout
         android:id="@+id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
-            android:scaleY="0.8"
+            android:scaleY="0.9"
             android:background="@drawable/comp_back_button">
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ln2"
+        android:layout_toEndOf="@id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="19dp"
             android:background="@drawable/title_saraf_tepi">
         </ImageView>
-
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/ln1"
+        android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="12dp"
-        android:layout_marginLeft="47dp">
+        android:paddingEnd="18dp"
+        android:layout_marginStart="69dp">
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
-            android:scaleX="0.55">
+            android:scaleX="1">
         </Button>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
-        android:paddingTop="15dp"
+        android:id="@+id/ln3"
+        android:layout_below="@id/ln2"
+        android:paddingTop="22dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="586dp">
+        android:layout_height="612dp">
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -78,8 +86,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln3"
-        android:layout_below="@id/ln2"
+        android:id="@+id/ln4"
+        android:layout_below="@id/ln3"
         android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"

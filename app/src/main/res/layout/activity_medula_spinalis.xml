@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_teks">
+    android:background="@drawable/bckg_4">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -74,7 +74,7 @@
     <LinearLayout
         android:id="@+id/ln4"
         android:layout_below="@id/ln3"
-        android:layout_marginLeft="322dp"
+        android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"
         android:layout_height="wrap_content">

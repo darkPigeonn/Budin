@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_teks">
+    android:background="@drawable/bckg_9">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
-            android:scaleY="0.8"
+            android:scaleY="0.9"
             android:background="@drawable/comp_back_button">
         </Button>
         <ImageView
@@ -46,27 +46,35 @@
     <LinearLayout
         android:id="@+id/ln2"
         android:layout_below="@id/ln1"
-        android:layout_marginTop="30dp"
+        android:paddingTop="100dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="32dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="598dp">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/scroll"
+                android:orientation="vertical"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/content_sel_neuroglial">
+                </ImageView>
+            </LinearLayout>
 
-        <ImageView
-            android:layout_width="2.1in"
-            android:layout_height="3.2in"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:background="@drawable/content_sel_neuroglial">
-        </ImageView>
+        </ScrollView>
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ln3"
         android:layout_below="@id/ln2"
-        android:layout_marginLeft="1.95in"
+        android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"
         android:layout_height="wrap_content">
