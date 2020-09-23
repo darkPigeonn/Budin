@@ -1,34 +1,47 @@
 <resources>
     <string name="app_name">Budinbudin</string>
 
-    //Kata Pengantar
+    <string name="content_text_bullet">\u2022</string>
+
+    <string name="content_text_letter_a">(a)</string>
+    <string name="content_text_letter_b">(b)</string>
+    <string name="content_text_letter_c">(c)</string>
+    <string name="content_text_letter_d">(d)</string>
+    <string name="content_text_letter_e">(e)</string>
+
+    <string name="content_text_number_1">1.</string>
+    <string name="content_text_number_2">2.</string>
+    <string name="content_text_number_3">3.</string>
+    <string name="content_text_number_4">4.</string>
+    <string name="content_text_number_5">5.</string>
+
+    //KATA PENGANTAR
     <string name="content_katapengantar">\t\t\t\tPuji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa. Atas berkat limpahan rahmat dan karunia-Nya pula Buku Digital Interaktif dengan materi
-        sisten Regulasi kelas XI (kurikulum 2013) ini dapat diselesaikan. Semoga Tuhan Buku Digital Interaktif ini dapat digunakan dengan sebagaimana mestinya.
-        \n\n\t\t\t\tPembelajaran berbasis teknologi ini merupakan sebuah inovasi baru guna mempermudah siswa dan guru dalam pembelajaran baik dikelas maupun diluar kelas. Inovasi ini dilihat dari peran
-        android yang sangat mempengaruhi konsentrasi siswa dalam proses pembelajaran. Buku Digital Interaktif ini merupakan sebuah inovasi baru buku dengan memanfaatkan teknologi masa kini. Buku Digital Interaktif
-        akan membahasa secara menyeluruh materi sistem regulasi berdasarkan kurikulum 2013. Buku Digital Interaktif diharapkan mampu menambah fokus siswa dalam memahami materi dan menerapkannya
-        didalam kehidupan sehari-hari.
-        \n\n\t\t\t\tSaya menyadari bahwa Buku Digital Interaktif ini masih jauh dari sempurna baik dari bentuk penyusunan maupun materinya. Kritik dan saran dari pengguna sangat
-        saya harapkan untuk penyempurnaan Buku Digital Interaktif. semoga Buku Digital Intraktif ini dapat memberikan manfaat kepada kita sekalian. Akhir kata saya mengucapakan terimakasih kepada
-        semua pihak yang sudah membantu dalam penulisan dan penyusunan.</string>
+                                         sistem Regulasi kelas XI (kurikulum 2013) ini dapat diselesaikan. Semoga Tuhan Buku Digital Interaktif ini dapat digunakan dengan sebagaimana mestinya.
+                                         \n\n\t\t\t\tPembelajaran berbasis teknologi ini merupakan sebuah inovasi baru guna mempermudah siswa dan guru dalam pembelajaran baik dikelas maupun diluar kelas.
+                                         Inovasi ini dilihat dari peran android yang sangat mempengaruhi konsentrasi siswa dalam proses pembelajaran. Buku Digital Interaktif ini merupakan sebuah inovasi
+                                         baru buku dengan memanfaatkan teknologi masa kini. Buku Digital Interaktif akan membahasa secara menyeluruh materi sistem regulasi berdasarkan kurikulum 2013.
+                                         Buku Digital Interaktif diharapkan mampu menambah fokus siswa dalam memahami materi dan menerapkannya didalam kehidupan sehari-hari.
+                                         \n\n\t\t\t\tSaya menyadari bahwa Buku Digital Interaktif ini masih jauh dari sempurna baik dari bentuk penyusunan maupun materinya. Kritik dan saran dari pengguna sangat
+                                         saya harapkan untuk penyempurnaan Buku Digital Interaktif. semoga Buku Digital Intraktif ini dapat memberikan manfaat kepada kita sekalian. Akhir kata saya
+                                         mengucapakan terimakasih kepada semua pihak yang sudah membantu dalam penulisan dan penyusunan.</string>
 
-    //Kompetensi Dasar
+    //KOMPETENSI DASAR
     <string name="content_kompetensi_dasar">Menganalisis hubungan antara struktur jaringan penyusun organ pada sistem koordinasi dan mengaitkannya dengan proses koordinasi sehingga dapat menjelaskan 
-        peran saraf dan hormon dalam mekanisme koordinasi dan regulasi serta gangguan fungsi yang mungkin terjadi pada sistem koordinasi manusia melalui studi literatur, pengamatan, percobaan, dan simulasi.
-        </string>
-    <string name="content_kompetensi_dasarii">Menyajikan hasil analisis tentang kelainan pada struktur dan fungsi saraf dan hormon pada sistem koordinasi yang disebabkan oleh senyawa psikotropika yang menyebabkan gangguan sistem koordinasi
-        manusia dan melakukan kampanye antinarkoba pada berbagai media.</string>
+                                            peran saraf dan hormon dalam mekanisme koordinasi dan regulasi serta gangguan fungsi yang mungkin terjadi pada sistem koordinasi manusia melalui studi literatur, pengamatan, percobaan, dan simulasi.</string>
+    <string name="content_kompetensi_dasarii">Menyajikan hasil analisis tentang kelainan pada struktur dan fungsi saraf dan hormon pada sistem koordinasi yang disebabkan oleh senyawa psikotropika yang
+                                              menyebabkan gangguan sistem koordinasimanusia dan melakukan kampanye antinarkoba pada berbagai media.</string>
 
-    //Kompetensi Inti
+    //KOMPETENSI INTI
     <string name="content_kompetensi_inti1">Menghargai dan menghayati ajaran agama yang dianutnya. </string>
     <string name="content_kompetensi_inti2">Menghargai dan menghayati perilaku jujur, disiplin, bertanggungjawab, peduli (toleransi, gotong royong), santun, percaya diri, dalam berinteraksi secara efektif
-        dengan lingkungan sosial dan alam dalam jangkauan pergaulan dan keberadaannya. </string>
+                                            dengan lingkungan sosial dan alam dalam jangkauan pergaulan dan keberadaannya. </string>
     <string name="content_kompetensi_inti3">Memahami pengetahuan (faktual, konseptual, dan prosedural) berdasarkan rasa ingin tahu tentang ilmu pengetahuan, teknologi, seni, budaya, terkait fenomena dan
-        kejadian tampak mata.</string>
+                                            kejadian tampak mata.</string>
     <string name="content_kompetensi_inti4">Mencoba mengolah dan menyaji dalam ranah konkret (menggunakan, mengurai, merangkai, memodifikasi dan membuat) dan ranah abstrak dengan yang dipelajari di sekolah
-        dan sumber lain yang sama dalam sudut pandang.</string>
+                                            dan sumber lain yang sama dalam sudut pandang.</string>
 
-    //Indikator Keberhasilan
+    //INDIKATOR KEBERHASILAN
     <string name="content_indikator_keberhasilan1">Menganalisis struktur dan fungsi saraf dan endokrin.</string>
     <string name="content_indikator_keberhasilan2">Menganalisis proses bekerjanya saraf dan endokrin.</string>
     <string name="content_indikator_keberhasilan3">Mengidentifikiasi faktor penyebab gangguan pada sistem saraf dan endokrin</string>
@@ -36,4 +49,83 @@
     <string name="content_indikator_keberhasilan5">Mengidentifikasi gangguan pada sistem indra bagi manusia.</string>
     <string name="content_indikator_keberhasilan6">Menganalisis  pengaruh penggunaan narkotika bagi sistem saraf.</string>
     <string name="content_indikator_keberhasilan7">Mempresentasikan hasil analisis mengenai penyebab dan dampak penggunaan narkotika</string>
+
+
+
+    //SISTEM SARAF PUSAT
+    <string name="content_text_medula_oblongata">Bagian yang menjulur dari pons hingga medula spinalis dengan panjang 2,5cm. Medula oblongata berfungsi dalam pengendalian frekuensi denyut jantung,
+                                                 tekanan darah, pernapasan, gerakan alat pencernaan makanan, menelan, muntah, sekresi kelenjar pencernaan makanan, serta mengatur gerak refleks seperti
+                                                 bersin, batuk dan berkedip.</string>
+    <string name="content_text_medula_spinalis">Medula spinalis berbentuk silinder yang memanjang dari batang otak medula oblongata hingga ruas kedua tulang pinggang panjang mitos finalis sekitar 45 cm
+                                                jika diameter 2 cm.  fungsinya untuk mengendalikan berbagai aktivitas refleks dalam tubuh komunikasi antara otak dengan semua bagian tubuh serta menghantar
+                                                rangsangan koordinasi antara otot dan sendi ke cerebellum.</string>
+    <!--Struktur Bagian Dalam-->
+    <string name="content_text_struktur_dalam1">Tanduk abu-abu posterior (dorsal) \nMengandung badan sel yang menerima impuls melalui saraf spinal dari neuron sensor.</string>
+    <string name="content_text_struktur_dalam2">Tanduk abu-abu anterior (ventral) \nBatang vertikal bawah mengandung neuron motor yang aksonnya mengirimkan impuls melalui saraf spinal ke otot dan kelenjar.</string>
+    <string name="content_text_struktur_dalam3">Tanduk lateral substansi abu-abu \nBagian antara tanduk posterior dan anterior mengandung pada badan sel neuron sistem saraf otonom (SSO).</string>
+    <string name="content_text_struktur_dalam4">Komisura abu-abu \nMenghubungkan panci abu-abu sisi kiri dan kanan medula spinalis.</string>
+    <!--Struktur Bagian Luar-->
+    <string name="content_text_struktur_luar">Substansi putih tersusun dari Akson yang bermielin.  bagian ini terbagi menjadi funiculus (kolumna) anterior (ventral) posterior ventrolateral dan lateral.
+                                              di dalam sini quwles terdapat traktus yaitu:</string>
+    <string name="content_text_struktur_luar1">Traktus sensor (asenden) \nBerperan dalam penyampaian informasi dari tubuh ke otak informasi tersebut misalnya sentuhan, suhu, nyeri, tekanan, posisi tubuh,
+                                               keseimbangan dan arah gerakan.</string>
+    <string name="content_text_struktur_luar2">Tractus motor (Desenden) \nBerperan membawa impuls motor dari otak ke medula spinalis dan dari saraf spinal menuju ke tubuh.  Traktus  motor berfungsi
+                                               menghantarkan impuls untuk koordinasi dan ketepatan gerakan volunteer (sadar) serta mempertahankan tonus (kontraksi) otot dalam aktivitas refleks.</string>
+    <!--serebelum-->
+    <string name="content_text_serebelum">Serebelum adalah bagian otak yang berlipat, terletak di bawah lobus oksipital dan melekat dibagian punggung atas batang otak. Serebelum berfungsi untuk
+                                          mempertahankan keseimbangan, kontrol gerakan mata, meningkatkan tonus(konteraksi) otot, serta koordinasi gerakan sadar yang berkaitan dengan keterampilan
+                                          (ex: mengetik, bermain piano dan berlari.</string>
+    <!--Pons Varolii-->
+    <string name="content_text_pons_varolii">Hampir seluruh bagiannya tersusun dari substansi putih yang berisi serabut saraf yang menghubungkan otak kecil kiri dengan otak kecil kanan, serta
+                                             menghubungkan otak besar dan sumsum tulang belakang. Pons varolii berfungsi untuk mengatur frekuensi dan kekuatan bernapas.</string>
+    <!--Sistem Saraf Pusat-->
+    <string name="content_text_sistem_saraf_pusat">\t\t\tOtak manusia diperkirakan mencapai 2% dari keseluruhan tubuh mengonsumsi 25% oksigen menerima 1,5% darah dari jantung.  otak manusia tersusun dari
+                                                   100 miliar neuron yang terhubung oleh sinapsis dan membentuk anyaman kelompok. Neuron di otak berkomunikasi secara kimiawi atau berupa muatan listrik
+                                                   agar kita mengalami emosi berpikir danmengingat, mengetahui dan mengatur keadaan tubuh sendiri dan lingkungannya serta secara sadar mengontrol gerakan tubuh.</string>
+    <!--Serebrum-->
+    <string name="content_text_serebrum">Korteks serebal, menempati 80% dari total masa otak, ketebalan 5mm, serta memiliki pelekukan yang meningkatkan luas permukaan nya sekitar 1000cm² sering dikaitkan
+                                         dengan kecerdasan.
+                                         \nArea Fungsional Korteks Serebral</string>
+    <string name="content_text_serebrum_a">Area motor primer, Bagian lobus frontal (dahi) dari girus presentral, mengendalikan kontraksi volunteer (dibawah kesadaran) otot rangka. Sisi anterior girus
+                                           presentral mengendalikan aktivitas motor yang terlatih dan berulang, misalnya kemampuan mengetik area broca (lobus frontal bagian girus frontalis Superior)
+                                           mengandalkan kemampuan berbicara.</string>
+    <string name="content_text_serebrum_b">Area korteks meliputi:</string>
+    <string name="content_text_serebrum_b1">Area Sensor Primer terdapat virus postcentral berfungsi menerima informasi nyeri, tekanan, suhu, dan sentuhan.</string>
+    <string name="content_text_serebrum_b2">Area Visual Primer terdapat di lobus oksipital (kepala belakang) berfungsi menerima informasi dari retina mata.</string>
+    <string name="content_text_serebrum_b3">Area Auditori Primer terdapat pada tepi atas lobus temporal (pelipis) berfungsi menerima impuls pendengaran (suara)</string>
+    <string name="content_text_serebrum_b4">Area Olfaktori Primer terdapat pada permukaan media lobus temporal, berkaitan dengan indera penciuman</string>
+    <string name="content_text_serebrum_b5">Area pengecap primer (gustatori), terdapat di lobus parietal (ubun-ubun) di dekat bagian inferior girus postsentral area ini berfungsi untuk persepsi rasa seperti
+                                            manis, asin, asam dan pahit ini </string>
+
+
+    //NEURON
+    <!--Fungsi Neuron-->
+    <string name="content_text_fungsi_neuron_1"><b>Neuron sensor (aferen)</b>
+                                              \nmenghantarkan impuls dari organ sensor ke pusat saraf (otak atau sumsum tulang belakang)</string>
+    <string name="content_text_fungsi_neuron_2"><b>Neuron motor (eferen)</b>
+                                              \nmenghantarkan impuls dari pusat saraf ke organ motor (otot) atau kelenjar</string>
+    <string name="content_text_fungsi_neuron_3"><b>Neuron konektor (interneuron)</b>
+                                              \nmenghubungkan neuron yang satu dengan neuron lainnya.</string>
+
+    <!--Neuron-->
+    <string name="content_text_neuron_1">Badan sel (perikariom)</string>
+    <string name="content_text_neuron_1_cx1">Mengendoplasma brainly dan ribosom yang berfungsi untuk sintesis protein mengendalikan metabolisme ke neuron.</string>
+    <string name="content_text_neuron_1_cx2">Sitoplasma mengandung badan nissl, berbentuk tumpukan retikulum</string>
+
+    <string name="content_text_neuron_2">Dendrit</string>
+    <string name="content_text_neuron_2_cx1">Menerima impuls dari sel lain ke badan sel</string>
+    <string name="content_text_neuron_2_cx2">Jalur sitoplasma yang relatif pendek, bercabang</string>
+
+    <string name="content_text_neuron_3">Akson</string>
+    <string name="content_text_neuron_3_cx1">Selubung mielin ditutupi oleh rangkaian sel-sel schwann yang berinti gepeng yaitu selubung schwann (neurelima)</string>
+    <string name="content_text_neuron_3_cx2">Akson dibungkus oleh substansilemak berwarna putih kekuningan yang disebut selubung mielin</string>
+
+    <!--Sel Neuroglial-->
+    <string name="content_text_selneuroglial">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.
+                                             \n
+                                             Jenis-jenis sel neuroglial:
+                                             <ol><li>Astrosit</li>
+                                             <li>Oligodendrosit</li>
+                                             <li>Sel Ependima</li>
+                                             <li>Mikroglia</li></ol></string>
 </resources>
