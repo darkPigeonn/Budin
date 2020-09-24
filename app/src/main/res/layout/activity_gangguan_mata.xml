@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_teks">
+    android:background="@drawable/background_mata">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="9dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -30,7 +31,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/title_gangguan_mata">
         </ImageView>
     </LinearLayout>
@@ -40,10 +41,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
         android:layout_marginStart="39dp">
         <Button
+            android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
@@ -74,9 +76,7 @@
                     android:background="@drawable/content_gangguan_mata">
                 </ImageView>
             </LinearLayout>
-
         </ScrollView>
-
     </LinearLayout>
 
     <LinearLayout
@@ -87,6 +87,7 @@
         android:paddingBottom="20dp"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_arrow_forward"

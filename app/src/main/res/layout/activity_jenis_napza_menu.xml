@@ -11,8 +11,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="12dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -29,7 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/title_jenis_napza">
         </ImageView>
     </LinearLayout>
@@ -39,10 +40,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
         android:layout_marginStart="64dp">
         <Button
+            android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
@@ -58,8 +60,10 @@
         android:layout_marginBottom="40dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
+        android:layout_marginStart="50dp"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/button_golongan_stimulan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/comp_gol_stimulan">
@@ -71,15 +75,15 @@
         android:layout_below="@+id/ln3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
+        android:layout_marginStart="150dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_golongan_depresan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
             android:background="@drawable/comp_gol_depresan">
         </Button>
     </LinearLayout>
@@ -89,15 +93,15 @@
         android:layout_below="@+id/ln4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
         android:layout_marginBottom="15dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_golongan_halus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="60dp"
             android:background="@drawable/comp_gol_halusinogen">
         </Button>
     </LinearLayout>

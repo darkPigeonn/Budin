@@ -15,7 +15,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="9dp"
             android:scaleX="0.5"
             android:scaleY="0.8"
             android:background="@drawable/comp_back_button">
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="2dp"
             android:background="@drawable/title_dampak_napza">
         </ImageView>
     </LinearLayout>
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:paddingRight="18dp"
         android:layout_marginStart="38dp">
         <Button
@@ -89,7 +89,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_black"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

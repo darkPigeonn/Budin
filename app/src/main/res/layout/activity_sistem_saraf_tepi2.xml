@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckg_6">
+    android:background="@drawable/background_sistemsaraf">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="9dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/title_saraf_tepi">
         </ImageView>
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
         android:layout_marginStart="69dp">
         <Button
@@ -82,7 +82,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

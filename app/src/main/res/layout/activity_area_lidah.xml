@@ -4,90 +4,89 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckg_7">
+    android:background="@drawable/background_lidah">
 
     <LinearLayout
         android:id="@+id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal">
+
         <Button
             android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/comp_back_button"
             android:scaleX="0.5"
-            android:scaleY="0.9"
-            android:background="@drawable/comp_back_button">
-        </Button>
+            android:scaleY="0.9" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@id/ln2"
-        android:layout_toEndOf="@id/ln1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ln1">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
-            android:background="@drawable/title_area_lidah">
-        </ImageView>
+            android:layout_marginTop="14dp"
+            android:background="@drawable/title_area_lidah" />
     </LinearLayout>
 
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="9dp"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
-        android:paddingEnd="18dp"
-        android:layout_marginStart="37dp">
+        android:paddingEnd="18dp">
+
         <Button
             android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
-            android:scaleX="1">
-        </Button>
+            android:scaleX="1" />
     </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/ln3"
-        android:layout_below="@id/ln2"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="352dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="340dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="20dp"
+            android:background="@drawable/content_image_area_lidah"
             android:paddingLeft="20dp"
             android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:background="@drawable/content_image_area_lidah">
-        </ImageView>
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp" />
     </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/ln4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/ln3"
         android:layout_marginStart="322dp"
-        android:layout_width="wrap_content"
-        android:paddingBottom="20dp"
-        android:layout_height="wrap_content">
+        android:paddingBottom="20dp">
+
         <Button
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
-            android:scaleX="0.6">
-        </Button>
+            android:background="@drawable/ic_arrow_forward_black"
+            android:scaleX="0.6" />
     </LinearLayout>
 </RelativeLayout>

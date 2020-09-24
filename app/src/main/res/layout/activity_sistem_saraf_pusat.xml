@@ -14,6 +14,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -44,6 +45,7 @@
         android:paddingEnd="18dp"
         android:layout_marginStart="52dp">
         <Button
+            android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
@@ -52,31 +54,33 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln3"
+        android:id="@+id/ln_text1"
         android:layout_below="@id/ln2"
-        android:paddingTop="35dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:background="@drawable/content_saraf_pusat">
-        </ImageView>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/segoeui"
+            android:justificationMode="inter_word"
+            android:text="@string/content_text_sistem_saraf_pusat"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ln4"
-        android:layout_below="@id/ln3"
+        android:layout_below="@id/ln_text1"
         android:layout_width="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="22dp"
         android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
@@ -93,6 +97,7 @@
         android:paddingBottom="20dp"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_arrow_forward"

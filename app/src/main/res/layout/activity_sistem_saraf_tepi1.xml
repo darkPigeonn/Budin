@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckg_6">
+    android:background="@drawable/background_sistemsaraf">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="9dp">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="14dp"
             android:background="@drawable/title_saraf_tepi">
         </ImageView>
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
         android:layout_marginStart="69dp">
         <Button
@@ -62,23 +62,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <LinearLayout
-                android:id="@+id/scroll"
-                android:orientation="vertical"
-                android:layout_marginRight="50dp"
-                android:layout_marginLeft="50dp"
+                android:id="@+id/ln_text2"
+                android:layout_marginBottom="351dp"
+                android:layout_marginStart="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/content_sistem_tepi2">
-                </ImageView>
-                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/content_text_bullet"
+                    android:justificationMode="inter_word"
+                    android:textSize="20sp">
+                </TextView>
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/content_image_sistem_tepi2"
-                    android:layout_gravity="center_horizontal">
-                </ImageView>
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFFFFF"
+                    android:text="@string/content_sistemsaraftepi_2"
+                    android:justificationMode="inter_word"
+                    android:textSize="18sp">
+                </TextView>
             </LinearLayout>
 
         </ScrollView>

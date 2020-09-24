@@ -13,6 +13,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -43,6 +44,7 @@
         android:paddingEnd="18dp"
         android:layout_marginStart="103dp">
         <Button
+            android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
@@ -51,30 +53,49 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln3"
+        android:id="@+id/ln_text1"
         android:layout_below="@id/ln2"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginBottom="159dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/content_fungsi_neuron">
-        </ImageView>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/segoeui"
+            android:justificationMode="inter_word"
+            android:text="@string/content_text_bullet"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/segoeui"
+            android:justificationMode="inter_word"
+            android:text="@string/content_text_struktur_dalam1"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
     </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/ln4"
-        android:layout_below="@id/ln3"
+        android:layout_below="@id/ln_text1"
         android:layout_marginStart="322dp"
         android:paddingBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_arrow_forward"

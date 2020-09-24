@@ -13,6 +13,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginTop="15dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -37,17 +38,18 @@
         android:id="@+id/lay1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginTop="80dp">
         <TextView
             android:id="@+id/nomor1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3.10"
+            android:justificationMode="inter_word"
             android:textColor="#000000"
-            android:textSize="18dp"
-            android:layout_marginRight="30dp"
+            android:textSize="18sp"
+            android:layout_marginEnd="30dp"
             android:layout_marginTop="3dp">
         </TextView>
         <TextView
@@ -57,7 +59,7 @@
             android:fontFamily="@font/segoeui"
             android:text="@string/content_kompetensi_dasar"
             android:textColor="#000000"
-            android:textSize="18dp">
+            android:textSize="18sp">
         </TextView>
     </LinearLayout>
     <LinearLayout

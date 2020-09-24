@@ -10,93 +10,111 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="15dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
             android:scaleY="0.9"
             android:background="@drawable/comp_back_button">
         </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/ln2"
+        android:layout_toEndOf="@id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="19dp"
             android:background="@drawable/title_neuron">
         </ImageView>
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/ln1"
+        android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="12dp"
-        android:layout_marginLeft="160dp">
+        android:paddingEnd="18dp"
+        android:layout_marginStart="174dp">
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/home_button"
+            android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
-            android:scaleX="0.55">
+            android:scaleX="1">
         </Button>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="26dp"
-        android:layout_marginBottom="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/group_badan_sel">
-        </ImageView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ln3"
+        android:id="@+id/ln_text1"
         android:layout_below="@id/ln2"
-        android:layout_marginLeft="40dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_marginEnd="150dp"
+            android:layout_marginStart="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/group_dendrit">
-        </ImageView>
+            android:fontFamily="@font/segoeui"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:text="@string/content_text_neuron_1">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_text2"
+        android:layout_below="@id/ln_text1"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/segoeui"
+            android:justificationMode="inter_word"
+            android:text="@string/content_text_number_1"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="0dp"
+            android:fontFamily="@font/segoeui"
+            android:justificationMode="inter_word"
+            android:text="@string/content_text_fungsi_neuron_1"
+            android:textColor="#000000"
+            android:textSize="20sp">
+        </TextView>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/ln4"
-        android:layout_below="@id/ln3"
-        android:layout_marginLeft="50dp"
-        android:layout_marginBottom="75dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/group_akson">
-        </ImageView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ln5"
-        android:layout_below="@id/ln4"
-        android:layout_marginLeft="1.95in"
+        android:id="@+id/ln6"
+        android:layout_below="@id/ln_text2"
+        android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_black"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>
