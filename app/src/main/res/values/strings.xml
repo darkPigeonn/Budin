@@ -178,6 +178,10 @@
     <string name="content_sistemsaraftepi_1">Sistem saraf tepi mengantarkan informasi ked an dari SSP dan berperan besar dalam meregulasi gerkan dan lingkungan internal. Secara structural, SST manusia dari pasangan kiri-kanan saraf kranial dan saraf spinal.</string>
     <string name="content_sistemsaraftepi_1_">Saraf karnial (Cranial nerve)\nMenghubungkan otak dengan lokasi-lokasi yang sebagian besar terdapat dalam organ-organ dikepala pada tubuh bagia atas.</string>
     <string name="content_sistemsaraftepi_2">Saraf Spinal (spinal nerve/saraf tulang belakang)\nMembentang diantara sumsum tulang belakang dan bagian tubuh di bawah kepala. Informasi sensoris mencapai SSP di sepanjang neuron-neuron SSP yang dikenal sebagai divisi aferen (afferent dari kata latin yang berarti membawa ke arah)membawa informasi dari reseptor yang terletak pada bagian eksternal tubuh atau reseptor somatik misalnya kulit merasakan dingin maupun bagian internal tubuh yaitu lambung merasakan lapar. Divisi Eferen (efferent, Dari kata latin yang berarti membawa menjauh).
-        \n\nSistem saraf aferen dibagi menjadi dua sistem saraf somatik dan sistem saraf otonom.  saraf somatik terdiri atas serat-serat neuron motor yang terdapat pada otot rangka.  sistem saraf otonom dibagi menjadi dua jenis berdasarkan fungsinya yaitu sistem saraf simpatis dan sistem saraf parasimpatis.
+        \n\nSistem saraf aferen dibagi menjadi dua sistem saraf somatik dan sistem saraf otonom.  saraf somatik terdiri atas serat-serat neuron motor yang terdapat pada otot rangka.  sistem saraf otonom dibagi menjadi dua jenis berdasarkan fungsinya yaitu sistem saraf simpatis dan sistem saraf parasimpatis.</string>
+
+
+    <!--NAPZA-->
+    <string name="content_golongan_halusinogen">Mengacaukan system saraf pusat, memberikan pengaruh halusinasi (melihat suatu hal/benda yang sebenarnya tidak ada) yang berlebihan. Dan semakin lama membuat perasaan khawatir berlebihan (paranoid). Contohnya : ganja (dalam jumlah sedikit), bunga kecubung, lem, bensin, dan jamur kotoran sapi ( contohnya:panaeolus cyanesce mengandung zat psilosibin dan psilosin).
 </string>
 </resources>

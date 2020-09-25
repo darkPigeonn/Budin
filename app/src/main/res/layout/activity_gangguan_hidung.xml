@@ -57,7 +57,7 @@
         android:layout_below="@id/ln2"
         android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="136dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -79,7 +79,7 @@
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_black"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

@@ -57,7 +57,7 @@
         android:paddingTop="25dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="609dp">
+        android:layout_height="614dp">
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -89,7 +89,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_black"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

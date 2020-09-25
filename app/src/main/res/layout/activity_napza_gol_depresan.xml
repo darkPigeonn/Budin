@@ -57,25 +57,14 @@
         android:paddingTop="22dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="609dp">
-        <ScrollView
+        android:layout_height="614dp">
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <LinearLayout
-                android:id="@+id/scroll"
-                android:orientation="vertical"
-                android:layout_marginRight="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/content_napza_gol_depresan">
-                </ImageView>
-            </LinearLayout>
+            android:layout_height="wrap_content"
+            android:background="@drawable/content_napza_gol_depresan">
+        </ImageView>
 
-        </ScrollView>
+
 
     </LinearLayout>
 

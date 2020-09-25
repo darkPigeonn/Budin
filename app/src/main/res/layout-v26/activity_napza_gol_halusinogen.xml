@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_telinga">
+    android:background="@drawable/background_halusinogen">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -13,7 +13,6 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="9dp">
         <Button
-            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -30,8 +29,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/title_telinga">
+            android:layout_marginTop="14dp"
+            android:background="@drawable/title_gol_halusinogen">
         </ImageView>
     </LinearLayout>
 
@@ -42,9 +41,8 @@
         android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
-        android:layout_marginStart="179dp">
+        android:layout_marginStart="28dp">
         <Button
-            android:id="@+id/home_button"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_home_button"
@@ -52,59 +50,35 @@
         </Button>
     </LinearLayout>
 
+
     <LinearLayout
         android:id="@+id/ln3"
         android:layout_below="@id/ln2"
-        android:paddingTop="30dp"
+        android:paddingTop="25dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="397dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/content_image_telinga">
-        </ImageView>
+            android:text="@string/content_golongan_halusinogen"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:justificationMode="inter_word">
+        </TextView>
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ln4"
         android:layout_below="@id/ln3"
-        android:paddingTop="0dp"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="327dp">
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <LinearLayout
-                android:id="@+id/scroll"
-                android:orientation="vertical"
-                android:layout_marginRight="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/content_text_telinga">
-                </ImageView>
-            </LinearLayout>
-
-        </ScrollView>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ln5"
-        android:layout_below="@id/ln4"
         android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"
         android:layout_height="wrap_content">
         <Button
-            android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_arrow_forward_black"
