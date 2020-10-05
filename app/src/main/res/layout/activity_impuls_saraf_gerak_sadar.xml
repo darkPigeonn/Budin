@@ -17,7 +17,7 @@
             android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
+            android:layout_marginTop="10dp"
             android:scaleX="0.5"
             android:scaleY="0.9"
             android:background="@drawable/comp_back_button">
@@ -31,7 +31,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1dp"
+            android:layout_marginTop="0dp"
             android:background="@drawable/title_impuls_saraf">
         </ImageView>
     </LinearLayout>
@@ -59,17 +59,29 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="68dp"
         android:layout_width="wrap_content"
+        android:orientation="vertical"
         android:layout_height="wrap_content">
-
-        <ImageView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#000000"
+            android:text="@string/content_text_Gtelinga_1"
+            android:justificationMode="inter_word"
+            android:textStyle="bold"
+            android:textSize="17sp">
+        </TextView>
+        <TextView
+            android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:background="@drawable/content_impuls_saraf_sadar">
-        </ImageView>
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:text="@string/content_text_Gtelinga_1_"
+            android:justificationMode="inter_word"
+            android:textSize="18sp">
+        </TextView>
     </LinearLayout>
 
     <LinearLayout

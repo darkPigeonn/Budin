@@ -56,8 +56,8 @@
         android:layout_below="@id/ln2"
         android:paddingTop="25dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="397dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="366dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
@@ -66,7 +66,8 @@
             android:text="@string/content_golongan_halusinogen"
             android:textColor="#000000"
             android:textSize="18sp"
-            android:justificationMode="inter_word">
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/segoeui">
         </TextView>
 
     </LinearLayout>

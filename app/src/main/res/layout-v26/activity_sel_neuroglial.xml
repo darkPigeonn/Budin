@@ -51,25 +51,153 @@
         </Button>
     </LinearLayout>
 
+
     <LinearLayout
         android:id="@+id/ln_text1"
         android:layout_below="@id/ln1"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="71dp"
+        android:layout_marginBottom="112dp"
+        android:orientation="vertical"
+        android:layout_marginStart="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginEnd="20dp"
-            android:layout_marginStart="20dp"
+            android:text="@string/content_text_neuroglial_1"
             android:fontFamily="@font/segoeui"
-            android:justificationMode="inter_word"
-            android:text="@string/content_text_selneuroglial"
             android:textColor="#FFFFFF"
-            android:textSize="20sp">
+            android:textSize="18sp"
+            android:justificationMode="inter_word">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_number_1"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="12dp"
+                android:textSize="18sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_neuroglial_2"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text_neuroglial_3"
+            android:fontFamily="@font/segoeui"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginStart="23dp"
+            android:justificationMode="inter_word">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_number_2"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="12dp"
+                android:textSize="18sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_neuroglial_4"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text_neuroglial_5"
+            android:fontFamily="@font/segoeui"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginStart="23dp"
+            android:justificationMode="inter_word">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_number_3"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="12dp"
+                android:textSize="18sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_neuroglial_6"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text_neuroglial_7"
+            android:fontFamily="@font/segoeui"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginStart="23dp"
+            android:justificationMode="inter_word">
+        </TextView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_number_4"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="12dp"
+                android:textSize="18sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_text_neuroglial_8"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_text_neuroglial_9"
+            android:fontFamily="@font/segoeui"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginStart="23dp"
+            android:justificationMode="inter_word">
         </TextView>
     </LinearLayout>
 

@@ -27,12 +27,15 @@
         android:layout_toEndOf="@id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/title_hidung">
-        </ImageView>
+            android:text="@string/title_hidung"
+            android:fontFamily="@font/agencyr"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp">
+        </TextView>
     </LinearLayout>
 
 
@@ -41,8 +44,9 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="9dp"
+        android:paddingStart="0dp"
         android:paddingEnd="18dp"
-        android:layout_marginStart="177dp">
+        android:layout_marginStart="172dp">
         <Button
             android:id="@+id/home_button"
             android:layout_width="48dp"
@@ -57,7 +61,6 @@
         android:layout_below="@id/ln2"
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="0dp"
         android:layout_marginStart="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">

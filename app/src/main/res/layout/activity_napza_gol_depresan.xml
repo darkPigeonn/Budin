@@ -56,16 +56,57 @@
         android:layout_below="@id/ln2"
         android:paddingTop="22dp"
         android:layout_centerHorizontal="true"
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="614dp">
-        <ImageView
+        android:layout_height="wrap_content">
+        <ScrollView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/content_napza_gol_depresan">
-        </ImageView>
-
-
-
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_text_goldepresan_1"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/segoeui"
+                    android:textSize="18sp">
+                </TextView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/content_text_bullet"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="15dp"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/segoeui">
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/content_text_goldepresan_2"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/segoeui"
+                        android:textSize="18sp"
+                        android:textStyle="bold">
+                    </TextView>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_text_goldepresan_3"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/segoeui"
+                    android:justificationMode="inter_word">
+                </TextView>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
     <LinearLayout

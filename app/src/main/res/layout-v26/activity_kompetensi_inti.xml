@@ -34,122 +34,111 @@
             android:background="@drawable/title_kompetensi_inti">
         </ImageView>
     </LinearLayout>
+
+
     <LinearLayout
         android:id="@+id/lay1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="80dp">
-        <TextView
-            android:id="@+id/nomor1"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KI 1"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="5dp">
-        </TextView>
-        <TextView
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KI 1"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginEnd="15dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_kompetensi_inti1"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:justificationMode="inter_word">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:fontFamily="@font/segoeui"
-            android:justificationMode="inter_word"
-            android:text="@string/content_kompetensi_inti1"
-            android:textColor="#000000"
-            android:textSize="18sp">
-        </TextView>
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/lay2"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/lay1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
-        <TextView
-            android:id="@+id/nomor2"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KI 2"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginEnd="15dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_kompetensi_inti2"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:justificationMode="inter_word">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KI 2"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="5dp">
-        </TextView>
-        <TextView
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KI 3"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginEnd="15dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_kompetensi_inti3"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:justificationMode="inter_word">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:fontFamily="@font/segoeui"
-            android:justificationMode="inter_word"
-            android:text="@string/content_kompetensi_inti2"
-            android:textColor="#000000"
-            android:textSize="18sp">
-        </TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/lay3"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/lay2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
-        <TextView
-            android:id="@+id/nomor3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="KI 3"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="5dp">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:fontFamily="@font/segoeui"
-            android:justificationMode="inter_word"
-            android:text="@string/content_kompetensi_inti3"
-            android:textColor="#000000"
-            android:textSize="18sp">
-        </TextView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/lay4"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/lay3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
-        <TextView
-            android:id="@+id/nomor4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="KI 4"
-            android:textColor="#000000"
-            android:textSize="18sp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="5dp">
-        </TextView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:fontFamily="@font/segoeui"
-            android:justificationMode="inter_word"
-            android:text="@string/content_kompetensi_inti4"
-            android:textColor="#000000"
-            android:textSize="18sp">
-        </TextView>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KI 4"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginEnd="15dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content_kompetensi_inti4"
+                android:fontFamily="@font/segoeui"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:justificationMode="inter_word">
+            </TextView>
+        </LinearLayout>
     </LinearLayout>
 
 

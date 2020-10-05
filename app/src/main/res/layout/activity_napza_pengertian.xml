@@ -55,6 +55,7 @@
         android:id="@+id/ln3"
         android:layout_below="@id/ln2"
         android:paddingTop="25dp"
+        android:layout_marginStart="40dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="614dp">
@@ -64,19 +65,27 @@
             <LinearLayout
                 android:id="@+id/scroll"
                 android:orientation="vertical"
-                android:layout_marginRight="50dp"
-                android:layout_marginLeft="50dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-                <ImageView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/content_arti_napzag">
-                </ImageView>
+                    android:text="@string/content_text_pengertian_napza_1"
+                    android:fontFamily="@font/segoeui"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:justificationMode="inter_word">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_text_pengertian_napza_2"
+                    android:fontFamily="@font/segoeui"
+                    android:textColor="#000000"
+                    android:textSize="18sp">
+                </TextView>
             </LinearLayout>
-
         </ScrollView>
-
     </LinearLayout>
 
     <LinearLayout

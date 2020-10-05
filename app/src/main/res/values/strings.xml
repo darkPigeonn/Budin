@@ -119,20 +119,19 @@
     <string name="content_text_neuron_3">Akson</string>
     <string name="content_text_neuron_3_cx1">Selubung mielin ditutupi oleh rangkaian sel-sel schwann yang berinti gepeng yaitu selubung schwann (neurelima)</string>
     <string name="content_text_neuron_3_cx2">Akson dibungkus oleh substansilemak berwarna putih kekuningan yang disebut selubung mielin</string>
+    
+    
+    <!--SEL NEUROGLIAL-->
+    <string name="content_text_neuroglial_1">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.\nJenis-jenis sel neuroglial:</string>
+    <string name="content_text_neuroglial_2">Astrosis</string>
+    <string name="content_text_neuroglial_3">Berbentuk bintang dan berfungsi sebagai lem yang menyatukan neuron-neuron </string>
+    <string name="content_text_neuroglial_4">Oligodendrosit (Olegodebdroglia)</string>
+    <string name="content_text_neuroglial_5">Menyerupi astrosit tetapi lebih kecil, membentuk lapisan meilin untuk melapisi akson</string>
+    <string name="content_text_neuroglial_6">Sel Ependima</string>
+    <string name="content_text_neuroglial_7">Membrane epitelium yang melapisi rongga serebral dan medulla spinalis</string>
+    <string name="content_text_neuroglial_8">Mikrogila</string>
+    <string name="content_text_neuroglial_9">Bersifat fagosit dan ukuran paling kecil dan berfungsi pertahanan imun</string>
 
-    <!--Sel Neuroglial-->
-    <string name="content_text_selneuroglial">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.
-                                             \n
-                                             Jenis-jenis sel neuroglial: \n
-                                             <li>Astrosit \n
-                                                 Berbentuk bintang dan berfungsi sebagai lem yang menyatukan neuron-neuron</li> \n
-                                             <li>Oligodendrosit \n
-                                                 Menyerupai astrosit tetapi lebih kecil, membentuk lapisan meilin untuk melapisi akson</li> \n
-                                             <li>Sel Ependima \n
-                                                 Membrane epitelium yang melapisi rongga selebral dan medula sinapsis</li> \n
-                                             <li>Mikroglia \n
-                                                 Bersifat fagosit dan ukuran paling kecil dan berfungsi sebagai pertahanan imun</li>\n
-    </string>
 
     <!--Mata-->
     <string name="content_text_mata_1">Cahaya yang dipantulkan oleh benda ditangkap oleh mata hingga menembus kornea dan diteruskan oleh pupil</string>
@@ -177,11 +176,243 @@
     <!--Sistem Saraf Tepi-->
     <string name="content_sistemsaraftepi_1">Sistem saraf tepi mengantarkan informasi ked an dari SSP dan berperan besar dalam meregulasi gerkan dan lingkungan internal. Secara structural, SST manusia dari pasangan kiri-kanan saraf kranial dan saraf spinal.</string>
     <string name="content_sistemsaraftepi_1_">Saraf karnial (Cranial nerve)\nMenghubungkan otak dengan lokasi-lokasi yang sebagian besar terdapat dalam organ-organ dikepala pada tubuh bagia atas.</string>
-    <string name="content_sistemsaraftepi_2">Saraf Spinal (spinal nerve/saraf tulang belakang)\nMembentang diantara sumsum tulang belakang dan bagian tubuh di bawah kepala. Informasi sensoris mencapai SSP di sepanjang neuron-neuron SSP yang dikenal sebagai divisi aferen (afferent dari kata latin yang berarti membawa ke arah)membawa informasi dari reseptor yang terletak pada bagian eksternal tubuh atau reseptor somatik misalnya kulit merasakan dingin maupun bagian internal tubuh yaitu lambung merasakan lapar. Divisi Eferen (efferent, Dari kata latin yang berarti membawa menjauh).
+    <string name="content_sistemsaraftepi_2">Saraf Spinal (spinal nerve/saraf tulang belakang)</string>
+    <string name="content_sistemsaraftepi_2_">Membentang diantara sumsum tulang belakang dan bagian tubuh di bawah kepala. Informasi sensoris mencapai SSP di sepanjang neuron-neuron SSP yang dikenal sebagai divisi aferen (afferent dari kata latin yang berarti membawa ke arah)membawa informasi dari reseptor yang terletak pada bagian eksternal tubuh atau reseptor somatik misalnya kulit merasakan dingin maupun bagian internal tubuh yaitu lambung merasakan lapar. Divisi Eferen (efferent, Dari kata latin yang berarti membawa menjauh).
         \n\nSistem saraf aferen dibagi menjadi dua sistem saraf somatik dan sistem saraf otonom.  saraf somatik terdiri atas serat-serat neuron motor yang terdapat pada otot rangka.  sistem saraf otonom dibagi menjadi dua jenis berdasarkan fungsinya yaitu sistem saraf simpatis dan sistem saraf parasimpatis.</string>
-
-
     <!--NAPZA-->
-    <string name="content_golongan_halusinogen">Mengacaukan system saraf pusat, memberikan pengaruh halusinasi (melihat suatu hal/benda yang sebenarnya tidak ada) yang berlebihan. Dan semakin lama membuat perasaan khawatir berlebihan (paranoid). Contohnya : ganja (dalam jumlah sedikit), bunga kecubung, lem, bensin, dan jamur kotoran sapi ( contohnya:panaeolus cyanesce mengandung zat psilosibin dan psilosin).
-</string>
+    <string name="content_golongan_halusinogen">Mengacaukan system saraf pusat, memberikan pengaruh halusinasi (melihat suatu hal/benda yang sebenarnya tidak ada) yang berlebihan. Dan semakin lama membuat perasaan khawatir berlebihan (paranoid). Contohnya : ganja (dalam jumlah sedikit), bunga kecubung, lem, bensin, dan jamur kotoran sapi ( contohnya:panaeolus cyanesce mengandung zat psilosibin dan psilosin).</string>
+
+    <!--FUNGSI MATA-->
+    <string name="content_text_fungsi_mata_1">Sklera</string>
+    <string name="content_text_fungsi_mata_1_">Bagian dinding mata yang tersusun dari jaringan ikat fibrosa berwarna putih memberikan bentuk pada bola mata dan sebagai tempat perlekatan otot ekstrinsik.</string>
+
+    <string name="content_text_fungsi_mata_2">Koroid</string>
+    <string name="content_text_fungsi_mata_2_">Koroid bagian yang tertib mentasi untuk mencegah refleksi internal berkas cahaya dan mengandung banyak pembuluh darah untuk memberikan nutrisi.</string>
+
+    <string name="content_text_fungsi_mata_3">Iris</string>
+    <string name="content_text_fungsi_mata_3_">Iris bagian yang berwarna pada mata terdiri dari jaringan ikat dan otot untuk mengendalikan diameter pupil.</string>
+
+    <string name="content_text_fungsi_mata_4">Lensa</string>
+    <string name="content_text_fungsi_mata_4_">Yang struktur bikonveksi bening di belakang pupil bersifat elastis.</string>
+
+    <string name="content_text_fungsi_mata_5">Pupil</string>
+    <string name="content_text_fungsi_mata_5_">Ruang terbuka yang bulat pada iris untuk dilalui cahaya.</string>
+
+    <string name="content_text_fungsi_mata_6">Kornea</string>
+    <string name="content_text_fungsi_mata_6_">untuk mentransmisi dan memfokuskan cahaya</string>
+
+    <string name="content_text_fungsi_mata_7">Aqeous Humor</string>
+    <string name="content_text_fungsi_mata_7_">Cairan bening yang mengandung nutrisi  untuk lensa dan kornea</string>
+
+    <string name="content_text_fungsi_mata_8">Vitrous Humor</string>
+    <string name="content_text_fungsi_mata_8_">Gel transparan untuk mempertahankan bentuk bola mata dan posisi retina terhadap kornea </string>
+
+    <string name="content_text_fungsi_mata_9">Retina</string>
+    <string name="content_text_fungsi_mata_9_">Lapisan terdalam mata tipis dan transparan</string>
+
+    <string name="content_text_fungsi_mata_10">Fovea (Bintik Kuning)</string>
+    <string name="content_text_fungsi_mata_10_">Pelekukan sentral lutea macula mengadung sel kerucut yang tidak memiliki sel batang, merupakan visual mata (bayangan objek yang terfokus dibagian ini akan dinterpretasikan oleh otak ). Jika bayangan benda jatuh tepat dibintik kuning, bayangan akan terlihat jelas.</string>
+
+    <string name="content_text_fungsi_mata_11">Bintik Buta</string>
+    <string name="content_text_fungsi_mata_11_">Bagian yang tidak mengandung fotoreseptor</string>
+
+    <string name="content_text_fungsi_mata_12">Saraf Optik</string>
+    <string name="content_text_fungsi_mata_12_">Terbentuk dari akson sel-sel ganglion yang keluar dari mata dan bergabung disisi superior kelenjar hipovisis membentuk kiasma optik</string>
+
+
+    <!--TELINGA-->
+    <string name="content_text_telinga_1">Daun Telinga</string>
+    <string name="content_text_telinga_1_">Pinna auricula yaitu daun kartilago yang menangkap gelombang bunyi untuk diteruskan ke kanal auditori eksternal (meatus) yang panjangnya sekitar 2,5 cm hingga Membran timpanum.</string>
+
+    <string name="content_text_telinga_2">Gendang Teling (membrane timpani)</string>
+    <string name="content_text_telinga_2_">Membran timpani atau gendang pendengar merupakan perbatasan antara bagian luar dengan bagian tengah telinga yang berbentuk kerucut.</string>
+
+    <string name="content_text_telinga_3">Rongga Timpanum</string>
+    <string name="content_text_telinga_3_">Ruang yang berongga di telinga tengah dikenal dengan nama rongga timpani dan dikelilingi oleh tulang timpani</string>
+
+    <string name="content_text_telinga_4">Tabung Eustachius (auditori)</string>
+    <string name="content_text_telinga_4_">Menghubungkan telinga tengah dengan faring dan berfungsi menyeimbangkan tekanan udara pada kedua Sisi Membran timpani.  tabung ini akan terbuka ketika menguap mengunyah dan menelan.</string>
+
+    <string name="content_text_telinga_5">Jendela Bulat</string>
+    <string name="content_text_telinga_5_">Jendela bulat pada telinga berfungsi untuk menyalurkan suara yang terdengar dan suara yang masuk ke otak.</string>
+
+    <string name="content_text_telinga_6">Osikel Auditori</string>
+    <string name="content_text_telinga_6_">Osikel Auditori meliputi tiga tulang pendengaran yaitu malleus (martil) inkus (landasan) dan stapes (sanggurdi).  tulang pendengaran berfungsi mengarahkan getaran dari membran timpani ke fenestra vestibuli (tingkap oval) yang membatasi telinga bagian tengah dengan bagian dalam.</string>
+
+    <string name="content_text_telinga_7">Saluran setengah lingkaran</string>
+    <string name="content_text_telinga_7_">menjaga keseimbangan tubuh.</string>
+
+    <string name="content_text_telinga_8">Saraf Vestibular</string>
+    <string name="content_text_telinga_8_">Mengandung reseptor keseimbangan tubuh</string>
+
+    <string name="content_text_telinga_9">Ruang Siput (Koklea)</string>
+    <string name="content_text_telinga_9_">Mengandung reseptor pendengaran</string>
+
+
+    <!--GANGGUAN HIDUNG-->
+    <string name="content_text_Ghidung_1">Hiposmia dan Anosmia</string>
+    <string name="content_text_Ghidung_1_">Gangguan ini disebabkan oleh tersumbatnya rongga hidung misalnya akibat polip pilek atau tumor. Gangguan ini akan mempengaruhi pada indra pengecap lidah sehingga kurang minat makan.</string>
+
+    <string name="content_text_Ghidung_2">Hiperosmis</string>
+    <string name="content_text_Ghidung_2_">lebih peka terhadap tumbuhan seperti mengenali bau parfum seseorang sebelum tampak orangnya. gangguan ini akan mengakibatkan sakit kepala migrain penyakit Addison dan pengaruh obat-obatan.</string>
+
+    <string name="content_text_Ghidung_3">Sinusitis</string>
+    <string name="content_text_Ghidung_3_">yaitu radang tulang-tulang tengkorak di sekitar hidung yang berongga dan berisi udara. gejala penyakit ini adalah sering batuk dan pilek.</string>
+
+    <string name="content_text_Ghidung_4">Polip</string>
+    <string name="content_text_Ghidung_4_">pembengkakan jaringan yang terjadi di dalam hidung dan mengeluarkan banyak cairan/lendir.  berkaitan dengan penyakit  telinga hidung dan tenggorokan seperti alergi inflamasi mukosa asma infeksi dan radang penyakit ini dapat diatasi dengan cara operasi.</string>
+
+    <!--GANGGUAN MATA-->
+    <string name="content_text_Gmata_1">Miopi (rabun dekat)</string>
+    <string name="content_text_Gmata_1_">Tidak bisa melihat benda jarak jauh Karena fokus bayangan jatuh didepan retina dapat dibantu dengan kacamata lensa minus (cekung/konkaf) turunnya terjadi pada belajar.</string>
+
+    <string name="content_text_Gmata_2">Hipermetropia (hyperopia / rabun jauh)</string>
+    <string name="content_text_Gmata_2_">Tidak bisa melihat benda jarak dekat Karena fokus bayangan jatuh dibelakang retina rabun jauh dapat dibantu dengan kacamata berlensa plus (cembung konvex).</string>
+
+    <string name="content_text_Gmata_3">Presbiopia</string>
+    <string name="content_text_Gmata_3_">Tidak dapat melihat benda jarak jauh atau dekat dapat dibantu dengan kacamata lensa rangkap biasanya terjadi pada lansia.</string>
+
+    <string name="content_text_Gmata_4">Kebutaan</string>
+    <string name="content_text_Gmata_4_">Tidak dapat melihat benda apapun umumnya disebabkan oleh kecelakaan.</string>
+
+    <string name="content_text_Gmata_5">Rabun senja</string>
+    <string name="content_text_Gmata_5_">Tidak bisa melihat dengan jelas pada saat sore hari saja akibat kekurangan vitamin A.</string>
+
+    <string name="content_text_Gmata_6">Buta warna</string>
+    <string name="content_text_Gmata_6_">Merupakan penyakit keturunan yang menyebabkan tidak dapat mempresentasikan warna. buta warna total sama sekali tidak dapat membedakan warna warna yang dapat dilihat hanya warna hitam abu-abu dan putih. buta warna parsial tidak bisa membedakan warna tertentu.</string>
+
+    <string name="content_text_Gmata_7">Katarak</string>
+    <string name="content_text_Gmata_7_">Lensa mata menjadi buram karena penebalan terjadi pada orang lanjut usia</string>
+
+    <string name="content_text_Gmata_8">Mata juling (strabismus)</string>
+    <string name="content_text_Gmata_8_">Suatu kondisi ketika kedua mata tampak tidak searah untuk memandang pada dua titik yang berbeda disebabkan oleh faktor keturunan komplikasi penyakit mata gangguan otot dan saraf atau celakaan gambar ini dapat diatasi dengan operasi.</string>
+
+
+    <!--GANGGUAN SARAF-->
+    <string name="content_text_Gsaraf_1">Meningitis</string>
+    <string name="content_text_Gsaraf_1_">Peradangan pada selaput otak dengan gejala bertambahnya jumlah dan berubahnya susunan cairan serebrospinal. penyakit ini dapat disebabkan oleh bakteri atau virus.</string>
+
+    <string name="content_text_Gsaraf_2">Ensefalitis</string>
+    <string name="content_text_Gsaraf_2_">Peradangan jaringan otak, biasanya disebabkan oleh virus.</string>
+
+    <string name="content_text_Gsaraf_3">Neuritis</string>
+    <string name="content_text_Gsaraf_3_">Gangguan pada saraf tepi akibat peradangan,keracunan,atau tekanan.  gejala penyakit ini adalah rasa sakit yang hebat pada malam hari. </string>
+
+    <string name="content_text_Gsaraf_4">Rasa baal (kebas) dan kesemutan</string>
+    <string name="content_text_Gsaraf_4_">Gangguan pada sistem saraf sensorik dapat disebabkan oleh gangguan metabolisme, tertutupnya aliran darah atau kekurangan vitamin neurotropik (B1, B6 dan B12).</string>
+
+    <string name="content_text_Gsaraf_5">Epilepsi (ayan)</string>
+    <string name="content_text_Gsaraf_5_">Penyakit saraf menahun yang menimbulkan serangan mendadak berulang-ulang tidak beralasan.  Penyakit ini disebabkan oleh trauma kepala (cedera),  tumor otak,  kerusakan otak saat proses kelahiran,  stroke dan alkohol.  Ayan bukan termasuk penyakit keturunan</string>
+
+    <string name="content_text_Gsaraf_6">Alzheimer</string>
+    <string name="content_text_Gsaraf_6_">Sindrom kematian sel-sel otak secara bersamaan sehingga otak tampak mengecil dan kemampuan daya mengingat berkurang sering diderita oleh orang berusia kurang lebih 65 tahun keatas.</string>
+
+    <string name="content_text_Gsaraf_7">Gegar otak (commotio cerebri)</string>
+    <string name="content_text_Gsaraf_7_">Bergeraknya jaringan otak dalam tengkorak yang menyebabkan perubahan fungsi mental atau tingkat kesadaran.  gegar otak ditandai dengan gejala awal kebingungan atau pingsan selama beberapa menit.</string>
+
+
+    <!--GANGGUAN TELINGA-->
+    <string name="content_text_Gtelinga_1">Tuli</string>
+    <string name="content_text_Gtelinga_1_">Penurunan / ketidakmampuan seseorang untuk mendengar suara. Tuli Kondukti  terjadi akibat gangguan transmisi suara ke koklea. Tuli Saraf terjadi akibat kerusakan organ korti, saraf CN VIII atau korteks otak.</string>
+
+
+    <string name="content_text_Gtelinga_2">Furunkulosis</string>
+    <string name="content_text_Gtelinga_2_">Munculnya bisul pada meatus (liang telinga).</string>
+
+    <string name="content_text_Gtelinga_3">Otitis Media</string>
+    <string name="content_text_Gtelinga_3_">Infeksi telinga tengah yang dapat terjadi setelah terserang flu, sinusittis, campak atau infeksi bakteri.</string>
+
+    <string name="content_text_Gtelinga_4">Mastoiditis</string>
+    <string name="content_text_Gtelinga_4_">Infeksi yang menyebabkan sel-sel tulang mastoid berongga.</string>
+
+    <!--IMPULS SARAF GERAK SADAR-->
+    <string name="content_text_Isaraf_1">Saraf</string>
+    <string name="content_text_Isaraf_1_">Saraf adalah ransangan yang diterima oleh reseptor dari lingkungan luar dibawa oleh neuron yang menjadi serabut saraf. Contoh impuls yaitu perubahan suhu, tekanan, bau, aroma, suara benda yang menarik perhatian dan berbagai rasa seperti asin, manis, asam, dan pahit</string>
+
+    <string name="content_text_Isaraf_2">Gerak Sadar</string>
+    <string name="content_text_Isaraf_2_">Contohnya gerakan memegang buku saat ingin belajar atau mengambil pensil saat ingin menulis.</string>
+
+
+    <!--DAMPAK NAPZA-->
+    <string name="content_text_dampaknapza_1">Gangguan Fisik (fisioneurologik)</string>
+    <string name="content_text_dampaknapza_1_">Gejala pemberhentian pemakaian obat adalah rasa sakit di sekujur tubuh seperti flu berat.</string>
+    <string name="content_text_dampaknapza_1_2">Mempercepat atau memperlambat denyut nadi, jantung, dan paru-paru yang dapat mengakibatkan kematian.</string>
+
+    <string name="content_text_dampaknapza_2">Psikologis</string>
+    <string name="content_text_dampaknapza_2_">Kemampuan berpikir rasional manurun drastis.</string>
+    <string name="content_text_dampaknapza_2_1">Ketergantungan psikologis.</string>
+    <string name="content_text_dampaknapza_2_2">Gangguan mentaldan emosional.</string>
+
+    <string name="content_text_dampaknapza_3">Ekonomi</string>
+    <string name="content_text_dampaknapza_3_">Membutuhkan uang yang sangat besar untuk memenuhi ketergantungan terhadap obat-obatan.</string>
+    <string name="content_text_dampaknapza_3_1">Negara dan masyarakat dirugikan dalam berbagai aspek, seperti keamanan, biaya kesehatan, kesempatan pendidikan.</string>
+
+
+    <!--GOLONGAN DEPRESAN-->
+    <string name="content_text_goldepresan_1">Senyama golongan depresan, yaitu:</string>
+    <string name="content_text_goldepresan_2">Opiat</string>
+    <string name="content_text_goldepresan_3">Meliputi opium, morfin, heroin, kodoin, dan metadon. Opiat dapat menimbulkan perasaan "high" untuk sesaat, lalu nyaman dan tenang (seperti mengantuk). Opiat dapat menyebabkan kematian jika overdosis (OD).</string>
+    <string name="content_text_goldepresan_4">Barbiturat</string>
+    <string name="content_text_goldepresan_5">Meliputi valium, lexotan, mandrax, rohypnol, luminal, dan librium. Barbiturat memberikan efek mengantuk dan tertidur tergantung pada dosis yang digunakan.</string>
+    <string name="content_text_goldepresan_6">Alkohol</string>
+    <string name="content_text_goldepresan_7">Penggunaan dalam jumlah banyak akan menyebabkan pandangan kabur, bicara tidak jelas, pusing hingga tak sadarkan diri, menghambat kemampuan mental dan menurunkan daya ingat.</string>
+    <string name="content_text_goldepresan_8">Ganja</string>
+    <string name="content_text_goldepresan_9">Digunakan sebagai pereda rasa sakit (penderita kanker) dibidang kedokteran. Penyalahgunaan ganja dalam jumlah banyak berakibat denyut nadi meningkat, gangguan keseimbangan dan koordinasi tubuh, kehilangan konsentrasi, ketakutan, mudah panik, kebingungan, mengantuk, penurunan jumlah sperma, dan pada wanita siklus menstruasi tidak teratur, ketergantungan dan kecanduan.</string>
+
+
+    <!--GOLONGAN STIMULAN-->
+    <string name="content_text_golstimulan_1">Golongan Stimulan dapat merangsang sistem saraf pusat yang menyebabkan organ tubuh seperti jantung dan otak terlalu cepat sehingga mengakibatkan penggunanya lebih bertenaga kita cenderung lebih senang dan gembira untuk sementara waktu.  senyawa yang termasuk golongan stimulan yaitu :</string>
+    <string name="content_text_golstimulan_2">Amfetamin (Amphetamine)</string>
+    <string name="content_text_golstimulan_3">Meliputi dextroamphetamin , metamphetamine / sabu-sabu, Ritalin, dan dexedrine. Amfetamin memberi efek tidak cepat lelah, merasa bersemangat, menurunkan nafsu makan (tidak lapar), sulit tidur, perasaan mudah tersinggung, gugup, keringat digin dan hipertensi. Jika terud menerus digunakan akan menyebabakan ketergantungan dan kematian.</string>
+    <string name="content_text_golstimulan_4">Ekstasi (Extasy)</string>
+    <string name="content_text_golstimulan_5">Mendorong tubuh untuk melakukan aktivias yang melampaui batas maksimum dari kekuatan tubuh. Ekstasi dapat menyebabkan diare, rasa haus yang berlebihan, hiperaktif, sakit kepala dan pusing, mengigil, detak jantung cepat, mual,muntah, hilang nafsu makan, gelisah, pucat, berkeringat, dehidrasi, kecanduan, saraf otak terganggu, gangguan hati, serta tulang dan gigi keropos.</string>
+    <string name="content_text_golstimulan_6">Kokain (crak, coke)</string>
+    <string name="content_text_golstimulan_7">Dapat memicu metabolisme sel, menimbulkan efek adiksi yang sangat kuat dan mengakibatkan tingkat kematian yang tinggi.</string>
+    <string name="content_text_golstimulan_8">Kafein</string>
+    <string name="content_text_golstimulan_9">Terdapat didalam biji kopi, daun teh, buah kola, dan guarana. Kafein merupakan obat perangsang sistem saraf yang dapat menghilangkan kantuk untuk sementara, meningkatkan denyut nadi, dan hipertensi.</string>
+    <string name="content_text_golstimulan_10">Alkohol (dalam jumlah sedikit)</string>
+    <string name="content_text_golstimulan_11">Merupakan minuman hasil fermentasi buah-buahan, sayuran, dan biji-bijian.</string>
+
+
+    <!--PENGERTIAN NAPZA-->
+    <string name="content_text_pengertian_napza_1">NAPZA adalah singkatan dari narkotika, psikotropika, dan zat adiktif.</string>
+    <string name="content_text_pengertian_napza_2">NAPZA merupakan zat-zat yang dikonsumsi yang akan memengaruhi sistem saraf dan mengubah perasaan serta cara berpikir.</string>
+    <string name="content_text_pengertian_napza_3">Narkotika</string>
+    <string name="content_text_pengertian_napza_4">Adalah zat atau obat yang berasal dari tanaman atau bukan tanaman (sintesis atau semisintesis) yang menyebabkan penurunan atau perubahan kesadaran, hilang rasa, mengurangi / menghilangkan rasa nyeri dan menimbulkan ketergantungan.</string>
+    <string name="content_text_pengertian_napza_5">Psikotropika</string>
+    <string name="content_text_pengertian_napza_6">Adalah zat atau obat baik alamiah atau sintesis, bukan narkotika, sebagai psikoaktif selektif pada susunan saraf pusat akan menimbulkan perubahan pada aktivitas normal dan perilaku.</string>
+    <string name="content_text_pengertian_napza_7">Zak Adiktif</string>
+    <string name="content_text_pengertian_napza_8">Adalah zat atau obat yang dapat menyebabkan ketagihan adiksi.</string>
+
+
+    <!--SINAPSIS-->
+    <string name="content_text_sinapsis">Sinapsis adalah tempat bertemunya setiap Neuron, titik temu antara ujung akson dengan dendrit lainnya serta hubungan ke otot dan kekelenjar. Struktur Sinaps terbagi menjadi bagian yaitu Prasinaps (bagian akson terminal), Celah sinaps (ruang anatar prasinaps dan pasaca sinaps) dan Pasca sinaps (bagian dendrit).</string>
+
+
+    <!--KARAKTERISTIK ENDOKRIN-->
+    <string name="content_text_endokrin_1">Merupakan kelenjar buntu, karena tidak memiliki saluran (duktus) dan menyekresikan hormone langsung kedalam cairan disekitar Sel-sel. </string>
+    <string name="content_text_endokrin_2">Pada umumnya menyekresi lebih dari satu jenis hormone kecuali kelenjar paratiroid yang hanya menyekresi hormone paratiroid</string>
+    <string name="content_text_endokrin_3">Memiliki sejumlah sel sekretori yang dikelilingi banyak pembuluh darah dan ditopang oleh jaringan ikat. </string>
+    <string name="content_text_endokrin_4">Masa akivitas kelenjar endokrin dalam menghasilkan hormone berbeda-beda, ada yang seumur hidup (ex: hormone metabolisme), dimulai pada masa tertentu (ex: hormone kelamin), atau bekerja sampai masa tertentu (ex: hormone pertumbuhan) </string>
+    <string name="content_text_endokrin_5">Sekresi hormone dapat distimulai atau dihambat oleh kadar hormone lainnya dan senyawa nonhormon (ex: glukosa dan kalsium) dalam darah serta impuls saraf) </string>
+
+
+    <!--SEREBRUM-->
+    <string name="content_text_serebrum_1">Korteks serebal, menempati 80% dari total masa otak, ketebalan 5mm, serta memiliki pelekukan yang meningkatkan luas permukaan nya sekitar 1000cm² sering dikaitkan dengan kecerdasan.\nArea Fungsional Korteks Serebral:</string>
+    <string name="content_text_serebrum_2">Area motor primer, Bagian lobus frontal (dahi) dari girus presentral, mengendalikan kontraksi volunteer (dibawah kesadaran) otot rangka. Sisi anterior girus presentral mengendalikan aktivitas motor yang terlatih dan berulang, misalnya kemampuan mengetik area broca (lobus frontal bagian girus frontalis Superior) mengandalkan kemampuan berbicara.\nArea korteks meliputi:</string>
+    <string name="content_text_serebrum_3">Area Sensor Primer terdapat virus postcentral berfungsi menerima informasi nyeri, tekanan, suhu, dan sentuhan.</string>
+    <string name="content_text_serebrum_4">Area Visual Primer terdapat di lobus oksipital (kepala belakang) berfungsi menerima informasi dari retina mata.</string>
+    <string name="content_text_serebrum_5">Area Auditori Primer terdapat pada tepi atas lobus temporal (pelipis) berfungsi menerima impuls pendengaran (suara)</string>
+    <string name="content_text_serebrum_6">Area Olfaktori Primer terdapat pada permukaan media lobus temporal, berkaitan dengan indera penciuman</string>
+    <string name="content_text_serebrum_7">Area pengecap primer (gustatori), terdapat di lobus parietal (ubun-ubun) di dekat bagian inferior girus postsentral area ini berfungsi untuk persepsi rasa seperti manis, asin, asam dan pahit ini </string>
+    <string name="title_area_kepekaan_lidah">Area Kepekaan Lidah</string>
+    <string name="title_cara_kerja_mata">Cara Kerja Mata</string>
+    <string name="title_kulit">Kulit</string>
+    <string name="title_hidung">Hidung</string>
+    <string name="title_lidah">Lidah</string>
+    <string name="title_mata">Mata</string>
+    <string name="title_telinga">Telinga</string>
+    <string name="title_gangguan_pada_hidung">Gangguan Pada Hidung</string>
+    <string name="title_gangguan_pada_telinga">Gangguan Pada Telinga</string>
+    <string name="title_impuls_saraf_gerak_sadar_dan_refleks">Impuls Saraf, Gerak Sadar, dan Refleks</string>
 </resources>

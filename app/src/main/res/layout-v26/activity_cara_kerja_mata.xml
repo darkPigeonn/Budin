@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
-            android:scaleY="0.8"
+            android:scaleY="0.9"
             android:background="@drawable/comp_back_button">
         </Button>
     </LinearLayout>
@@ -27,12 +27,15 @@
         android:layout_toEndOf="@id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:background="@drawable/title_cara_mata">
-        </ImageView>
+            android:text="@string/title_cara_kerja_mata"
+            android:fontFamily="@font/agencyr"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp">
+        </TextView>
     </LinearLayout>
 
 
@@ -42,7 +45,7 @@
         android:layout_toEndOf="@id/ln2"
         android:layout_marginTop="9dp"
         android:paddingEnd="18dp"
-        android:layout_marginStart="85dp">
+        android:layout_marginStart="67dp">
         <Button
             android:id="@+id/home_button"
             android:layout_width="48dp"

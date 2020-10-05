@@ -57,12 +57,13 @@
         android:paddingTop="22dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="612dp">
+        android:layout_height="615dp">
         <ScrollView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <LinearLayout
                 android:id="@+id/ln_text2"
+                android:orientation="vertical"
                 android:layout_marginBottom="351dp"
                 android:layout_marginStart="40dp"
                 android:layout_marginEnd="40dp"
@@ -70,23 +71,31 @@
                 android:layout_height="wrap_content">
                 <TextView
                     android:layout_width="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginEnd="10dp"
                     android:textColor="#FFFFFF"
-                    android:text="@string/content_text_bullet"
+                    android:text="@string/content_sistemsaraftepi_2"
                     android:justificationMode="inter_word"
-                    android:textSize="20sp">
+                    android:textStyle="bold"
+                    android:textSize="18sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#FFFFFF"
-                    android:text="@string/content_sistemsaraftepi_2"
+                    android:text="@string/content_sistemsaraftepi_2_"
                     android:justificationMode="inter_word"
                     android:textSize="18sp">
                 </TextView>
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/content_image_sistem_tepi2">
+                </ImageView>
             </LinearLayout>
 
         </ScrollView>
@@ -103,7 +112,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>
