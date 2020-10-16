@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_sistemsaraf">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -75,19 +75,21 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_sistemsaraftepi_2"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="18sp">
+                    android:textSize="17sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_sistemsaraftepi_2_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="17sp">
                 </TextView>
                 <ImageView
                     android:layout_marginTop="20dp"

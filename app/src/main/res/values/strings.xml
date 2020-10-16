@@ -79,7 +79,7 @@
     <string name="content_text_pons_varolii">Hampir seluruh bagiannya tersusun dari substansi putih yang berisi serabut saraf yang menghubungkan otak kecil kiri dengan otak kecil kanan, serta
                                              menghubungkan otak besar dan sumsum tulang belakang. Pons varolii berfungsi untuk mengatur frekuensi dan kekuatan bernapas.</string>
     <!--Sistem Saraf Pusat-->
-    <string name="content_text_sistem_saraf_pusat">\t\t\tOtak manusia diperkirakan mencapai 2% dari keseluruhan tubuh mengonsumsi 25% oksigen menerima 1,5% darah dari jantung.  otak manusia tersusun dari
+    <string name="content_text_sistem_saraf_pusat">Otak manusia diperkirakan mencapai 2% dari keseluruhan tubuh mengonsumsi 25% oksigen menerima 1,5% darah dari jantung.  otak manusia tersusun dari
                                                    100 miliar neuron yang terhubung oleh sinapsis dan membentuk anyaman kelompok. Neuron di otak berkomunikasi secara kimiawi atau berupa muatan listrik
                                                    agar kita mengalami emosi berpikir danmengingat, mengetahui dan mengatur keadaan tubuh sendiri dan lingkungannya serta secara sadar mengontrol gerakan tubuh.</string>
     <!--Serebrum-->
@@ -101,11 +101,11 @@
     //NEURON
     <!--Fungsi Neuron-->
     <string name="content_text_fungsi_neuron_1"><b>Neuron sensor (aferen)</b>
-                                              \nmenghantarkan impuls dari organ sensor ke pusat saraf (otak atau sumsum tulang belakang)</string>
+                                              <br />menghantarkan impuls dari organ sensor ke pusat saraf (otak atau sumsum tulang belakang)</string>
     <string name="content_text_fungsi_neuron_2"><b>Neuron motor (eferen)</b>
-                                              \nmenghantarkan impuls dari pusat saraf ke organ motor (otot) atau kelenjar</string>
+                                              <br />menghantarkan impuls dari pusat saraf ke organ motor (otot) atau kelenjar</string>
     <string name="content_text_fungsi_neuron_3"><b>Neuron konektor (interneuron)</b>
-                                              \nmenghubungkan neuron yang satu dengan neuron lainnya.</string>
+                                              <br />menghubungkan neuron yang satu dengan neuron lainnya.</string>
 
     <!--Neuron-->
     <string name="content_text_neuron_1">Badan sel (perikariom)</string>
@@ -205,13 +205,13 @@
     <string name="content_text_fungsi_mata_7_">Cairan bening yang mengandung nutrisi  untuk lensa dan kornea</string>
 
     <string name="content_text_fungsi_mata_8">Vitrous Humor</string>
-    <string name="content_text_fungsi_mata_8_">Gel transparan untuk mempertahankan bentuk bola mata dan posisi retina terhadap kornea </string>
+    <string name="content_text_fungsi_mata_8_">Gel transparan untuk mempertahankan bentuk bola mata dan posisi retina terhadap kornea</string>
 
     <string name="content_text_fungsi_mata_9">Retina</string>
     <string name="content_text_fungsi_mata_9_">Lapisan terdalam mata tipis dan transparan</string>
 
     <string name="content_text_fungsi_mata_10">Fovea (Bintik Kuning)</string>
-    <string name="content_text_fungsi_mata_10_">Pelekukan sentral lutea macula mengadung sel kerucut yang tidak memiliki sel batang, merupakan visual mata (bayangan objek yang terfokus dibagian ini akan dinterpretasikan oleh otak ). Jika bayangan benda jatuh tepat dibintik kuning, bayangan akan terlihat jelas.</string>
+    <string name="content_text_fungsi_mata_10_">Pelekukan sentral lutea macula mengadung sel kerucut yang tidak memiliki sel batang, merupakan visual mata (bayangan objek yang terfokus dibagian ini akan dinterpretasikan oleh otak). Jika bayangan benda jatuh tepat dibintik kuning, bayangan akan terlihat jelas.</string>
 
     <string name="content_text_fungsi_mata_11">Bintik Buta</string>
     <string name="content_text_fungsi_mata_11_">Bagian yang tidak mengandung fotoreseptor</string>
@@ -415,4 +415,5 @@
     <string name="title_gangguan_pada_hidung">Gangguan Pada Hidung</string>
     <string name="title_gangguan_pada_telinga">Gangguan Pada Telinga</string>
     <string name="title_impuls_saraf_gerak_sadar_dan_refleks">Impuls Saraf, Gerak Sadar, dan Refleks</string>
+    <string name="indikator">Indikator</string>
 </resources>

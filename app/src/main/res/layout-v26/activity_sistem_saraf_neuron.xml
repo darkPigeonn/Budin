@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_neuron">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -65,8 +65,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoeui"
-            android:textColor="#000000"
-            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
             android:text="@string/content_text_neuron_1">
         </TextView>
     </LinearLayout>
@@ -76,7 +76,7 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -87,8 +87,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -99,8 +99,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_1_cx1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
     <LinearLayout
@@ -109,7 +109,7 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -120,8 +120,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -132,8 +132,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_1_cx2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
 
@@ -151,8 +151,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoeui"
-            android:textColor="#000000"
-            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
             android:text="@string/content_text_neuron_2">
         </TextView>
     </LinearLayout>
@@ -162,7 +162,7 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -173,8 +173,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -185,8 +185,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_2_cx1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
     <LinearLayout
@@ -195,7 +195,7 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -206,8 +206,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -218,8 +218,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_2_cx2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
 
@@ -237,8 +237,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoeui"
-            android:textColor="#000000"
-            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
             android:text="@string/content_text_neuron_3">
         </TextView>
     </LinearLayout>
@@ -248,7 +248,7 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="50dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -259,8 +259,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -271,8 +271,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_3_cx1"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
     <LinearLayout
@@ -281,8 +281,8 @@
         android:layout_marginTop="0dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="37dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="70dp"
         android:layout_centerHorizontal="true">
         <TextView
             android:layout_width="wrap_content"
@@ -293,8 +293,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_number_2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
@@ -305,8 +305,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_neuron_3_cx2"
-            android:textColor="#000000"
-            android:textSize="18sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
 
@@ -321,7 +321,7 @@
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_black"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

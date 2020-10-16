@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckg_4">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -58,7 +58,7 @@
         android:layout_below="@id/ln2"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="303dp"
+        android:layout_marginBottom="388dp"
         android:layout_marginStart="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -69,8 +69,8 @@
             android:fontFamily="@font/segoeui"
             android:justificationMode="inter_word"
             android:text="@string/content_text_serebelum"
-            android:textColor="#000000"
-            android:textSize="20sp">
+            android:textColor="#FFFFFF"
+            android:textSize="17sp">
         </TextView>
     </LinearLayout>
 
@@ -86,7 +86,7 @@
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_black"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_telinga">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -61,7 +61,7 @@
         android:paddingTop="25dp"
         android:orientation="vertical"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="214dp"
+        android:layout_marginBottom="171dp"
         android:layout_marginStart="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -70,7 +70,8 @@
             android:layout_marginBottom="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_1"
             android:justificationMode="inter_word"
             android:textStyle="bold"
@@ -81,17 +82,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_1_"
             android:justificationMode="inter_word"
-            android:textSize="18sp">
+            android:textSize="16sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_marginBottom="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_2"
             android:justificationMode="inter_word"
             android:textStyle="bold"
@@ -101,18 +104,20 @@
             android:layout_marginBottom="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
+            android:layout_gravity=""
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_2_"
             android:justificationMode="inter_word"
-            android:textSize="18sp">
+            android:textSize="16sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_marginBottom="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_3"
             android:justificationMode="inter_word"
             android:textStyle="bold"
@@ -123,17 +128,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_3_"
             android:justificationMode="inter_word"
-            android:textSize="18sp">
+            android:textSize="16sp">
         </TextView>
         <TextView
             android:layout_width="wrap_content"
             android:layout_marginBottom="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_4"
             android:justificationMode="inter_word"
             android:textStyle="bold"
@@ -144,10 +151,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/segoeui"
             android:text="@string/content_text_Gtelinga_4_"
             android:justificationMode="inter_word"
-            android:textSize="18sp">
+            android:textSize="16sp">
         </TextView>
     </LinearLayout>
 
@@ -163,7 +171,7 @@
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_black"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

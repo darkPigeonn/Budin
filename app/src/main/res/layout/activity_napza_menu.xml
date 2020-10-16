@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bckg_3">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -56,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="40dp"
+        android:layout_marginStart="50dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:layout_height="wrap_content">
@@ -71,15 +72,14 @@
         android:layout_below="@+id/ln3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="40dp"
+        android:layout_marginStart="130dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
             android:background="@drawable/comp_jenis_napza">
         </Button>
     </LinearLayout>

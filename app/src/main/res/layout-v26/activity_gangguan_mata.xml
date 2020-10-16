@@ -4,7 +4,7 @@
     android:id="@+id/sel_neuroglial"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_mata">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -78,168 +78,184 @@
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_1"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:fontFamily="@font/segoeui"
+                    android:textColor="#FFFFFF"
                     android:text="@string/content_text_Gmata_1_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_2"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_2_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_3"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_3_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_4"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:fontFamily="@font/segoeui"
+                    android:textColor="#FFFFFF"
                     android:text="@string/content_text_Gmata_4_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:text="@string/content_text_Gmata_5"
+                    android:fontFamily="@font/segoeui"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_5_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_6"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_6_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_7"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_7_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="start"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_8"
                     android:justificationMode="inter_word"
                     android:textStyle="bold"
-                    android:textSize="17sp">
+                    android:textSize="16sp">
                 </TextView>
                 <TextView
                     android:layout_marginBottom="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/segoeui"
                     android:text="@string/content_text_Gmata_8_"
                     android:justificationMode="inter_word"
-                    android:textSize="18sp">
+                    android:textSize="16sp">
                 </TextView>
             </LinearLayout>
         </ScrollView>
@@ -256,7 +272,7 @@
             android:id="@+id/forward_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_black"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_endokrin">
+    android:background="@drawable/bckg_semua_budin">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_number_1"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/segoeui">
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_endokrin_1"
                 android:textSize="18sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/segoeui"
                 android:justificationMode="inter_word">
             </TextView>
@@ -91,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_number_2"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/segoeui">
@@ -101,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_endokrin_2"
                 android:textSize="18sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/segoeui"
                 android:justificationMode="inter_word">
             </TextView>
@@ -114,7 +114,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_number_3"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/segoeui">
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_endokrin_3"
                 android:textSize="18sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/segoeui"
                 android:justificationMode="inter_word">
             </TextView>
@@ -137,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_number_4"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/segoeui">
@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_endokrin_4"
                 android:textSize="18sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/segoeui"
                 android:justificationMode="inter_word">
             </TextView>
@@ -160,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_number_5"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:layout_marginEnd="10dp"
                 android:fontFamily="@font/segoeui">
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/content_text_endokrin_5"
                 android:textSize="18sp"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:fontFamily="@font/segoeui"
                 android:justificationMode="inter_word">
             </TextView>
@@ -188,7 +188,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_black"
+            android:background="@drawable/ic_arrow_forward_white"
             android:scaleX="0.6">
         </Button>
     </LinearLayout>

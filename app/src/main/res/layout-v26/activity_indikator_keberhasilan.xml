@@ -27,12 +27,15 @@
         android:layout_toEndOf="@id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:background="@drawable/title_indikator_keberhasilan">
-        </ImageView>
+            android:text="@string/indikator"
+            android:fontFamily="@font/agencyr"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="35sp">
+        </TextView>
     </LinearLayout>
 
     <LinearLayout
