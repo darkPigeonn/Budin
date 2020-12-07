@@ -13,6 +13,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp">
         <Button
+            android:id="@+id/back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:scaleX="0.5"
@@ -22,7 +23,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="2dp"
             android:background="@drawable/title_sistem_saraf">
         </ImageView>
 
@@ -53,12 +54,14 @@
         android:paddingRight="20dp"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/button_saraf_neuron"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@drawable/comp_neuron">
         </Button>
         <Button
+            android:id="@+id/button_saraf_neuroglial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -77,12 +80,14 @@
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_saraf_sinapsis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@drawable/comp_sinapsis">
         </Button>
         <Button
+            android:id="@+id/button_saraf_impuls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -101,12 +106,14 @@
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_saraf_mekanisme_impuls"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@drawable/comp_mekanisme_impuls">
         </Button>
         <Button
+            android:id="@+id/button_saraf_pusat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -125,12 +132,14 @@
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_saraf_tepi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
             android:background="@drawable/comp_sistem_saraf_tepi">
         </Button>
         <Button
+            android:id="@+id/button_saraf_gangguan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

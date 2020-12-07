@@ -63,7 +63,7 @@
         android:layout_marginStart="50dp"
         android:layout_height="wrap_content">
         <Button
-            android:id="@+id/button_golongan_stimulan"
+            android:id="@+id/button_jenis_napza_stimulan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/comp_gol_stimulan">
@@ -81,7 +81,7 @@
         android:layout_marginStart="150dp"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/button_golongan_depresan"
+            android:id="@+id/button_jenis_napza_depresan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/comp_gol_depresan">
@@ -99,7 +99,7 @@
         android:paddingRight="20dp"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/button_golongan_halus"
+            android:id="@+id/button_jenis_napza_halusi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/comp_gol_halusinogen">

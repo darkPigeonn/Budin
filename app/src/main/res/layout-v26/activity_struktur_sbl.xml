@@ -113,7 +113,7 @@
         android:layout_below="@id/ln_text2"
         android:layout_marginTop="5dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="123dp"
+        android:layout_marginBottom="146dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
