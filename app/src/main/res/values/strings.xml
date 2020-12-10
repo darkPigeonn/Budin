@@ -51,7 +51,6 @@
     <string name="content_indikator_keberhasilan7">Mempresentasikan hasil analisis mengenai penyebab dan dampak penggunaan narkotika</string>
 
 
-
     //SISTEM SARAF PUSAT
     <string name="content_text_medula_oblongata">Bagian yang menjulur dari pons hingga medula spinalis dengan panjang 2,5cm. Medula oblongata berfungsi dalam pengendalian frekuensi denyut jantung,
                                                  tekanan darah, pernapasan, gerakan alat pencernaan makanan, menelan, muntah, sekresi kelenjar pencernaan makanan, serta mengatur gerak refleks seperti
@@ -119,8 +118,8 @@
     <string name="content_text_neuron_3">Akson</string>
     <string name="content_text_neuron_3_cx1">Selubung mielin ditutupi oleh rangkaian sel-sel schwann yang berinti gepeng yaitu selubung schwann (neurelima)</string>
     <string name="content_text_neuron_3_cx2">Akson dibungkus oleh substansilemak berwarna putih kekuningan yang disebut selubung mielin</string>
-    
-    
+
+
     <!--SEL NEUROGLIAL-->
     <string name="content_text_neuroglial_1">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.\nJenis-jenis sel neuroglial:</string>
     <string name="content_text_neuroglial_2">Astrosis</string>

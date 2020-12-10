@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.budinbudin">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".napza.napza_dampak"></activity>
+        <activity android:name=".VideoYoutube"></activity>
+        <activity android:name=".dasar.MainActivity" />
+        <activity android:name=".napza.napza_dampak" />
         <activity android:name=".napza.jenis_napza.napza_gol_halusinogen" />
         <activity android:name=".napza.jenis_napza.napza_gol_depresan" />
         <activity android:name=".napza.jenis_napza.napza_gol_stimulan" />
@@ -56,7 +60,13 @@
         <activity android:name=".dasar.kompetensi_dasar" />
         <activity android:name=".dasar.kata_pengantar" />
         <activity android:name=".home_screen" />
-        <activity android:name=".splash_screen" />
+        <activity android:name=".splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

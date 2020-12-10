@@ -24,8 +24,14 @@ public class kompetensi_dasar extends AppCompatActivity {
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(kompetensi_dasar.this, home_screen.class));
+                onBackPressed();
+                finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

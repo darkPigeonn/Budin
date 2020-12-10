@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -24,9 +25,12 @@ public class indikator_keberhasilan extends AppCompatActivity {
         button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(indikator_keberhasilan.this, home_screen.class));
+                onBackPressed();
+                finish();
             }
         });
 
     }
+
+
 }

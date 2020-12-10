@@ -116,15 +116,19 @@
             android:id="@+id/button_peta_konsep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="15dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/comp_peta_konsep">
         </Button>
         <Button
             android:id="@+id/button_quizziz"
-            android:layout_width="wrap_content"
-            android:layout_marginEnd="0dp"
+            android:text="TTS"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_width="150dp"
+            android:height="60dp"
+            android:layout_marginStart="10sp"
             android:layout_height="wrap_content"
-            android:background="@drawable/comp_quizziz">
+            android:background="#0425DA">
         </Button>
     </LinearLayout>
 

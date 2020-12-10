@@ -19,13 +19,14 @@ public class kata_pengantar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kata_pengantar);
 
-        button_back = findViewById(R.id.back_button);
+        Button buttock = findViewById(R.id.backbutton);
 
-        button_back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(kata_pengantar.this, home_screen.class));
-            }
-        });
+        buttock.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+                startActivity(new Intent(kata_pengantar.this, kompetensi_dasar.class));
+           }
+       });
     }
+
 }
