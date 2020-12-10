@@ -9,9 +9,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.budinbudin.R;
+import com.example.budinbudin.home_screen;
 import com.example.budinbudin.saraf.sistem_saraf_pusat.pons_varolii;
 import com.example.budinbudin.saraf.sistem_saraf_pusat.serebelum;
 import com.example.budinbudin.saraf.sistem_saraf_pusat.serebrum;
+import com.example.budinbudin.saraf.sistem_saraf_tepi.sistem_saraf_tepi;
 import com.example.budinbudin.sistem_indra.hidung.fungsi_hidung;
 import com.example.budinbudin.sistem_indra.sistem_indra_menu;
 
@@ -30,7 +32,17 @@ public class fungsi_mata extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button home = findViewById(R.id.home_button);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(fungsi_mata.this, home_screen.class));
+                finish();
+            }
+        });
     }
+
     public boolean onTouchEvent(MotionEvent touchEvent) {
 
         switch(touchEvent.getAction()){

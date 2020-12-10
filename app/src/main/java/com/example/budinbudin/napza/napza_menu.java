@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.budinbudin.R;
+import com.example.budinbudin.home_screen;
 import com.example.budinbudin.napza.jenis_napza.jenis_napza_menu;
 
 public class napza_menu extends AppCompatActivity {
@@ -20,6 +21,7 @@ public class napza_menu extends AppCompatActivity {
         Button pengertian = findViewById(R.id.button_napza_pengertian);
         Button dampak = findViewById(R.id.button_napza_dampak_napza);
         Button jenis = findViewById(R.id.button_napza_jenis_napza);
+        Button home = findViewById(R.id.home_button);
 
         Button back = findViewById(R.id.back_button);
         back.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +49,13 @@ public class napza_menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(napza_menu.this, jenis_napza_menu.class));
+            }
+        });
+
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(napza_menu.this, home_screen.class));
             }
         });
     }

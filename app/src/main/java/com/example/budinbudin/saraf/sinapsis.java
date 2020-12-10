@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.budinbudin.R;
+import com.example.budinbudin.home_screen;
 import com.example.budinbudin.saraf.impuls_saraf.impuls_saraf_gerak_refleks;
+import com.example.budinbudin.saraf.sistem_saraf_tepi.sistem_saraf_tepi;
 
 public class sinapsis extends AppCompatActivity {
 
@@ -23,6 +25,15 @@ public class sinapsis extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(sinapsis.this, sistem_saraf_menu.class));
+                finish();
+            }
+        });
+
+        Button home = findViewById(R.id.home_button);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(sinapsis.this, home_screen.class));
                 finish();
             }
         });

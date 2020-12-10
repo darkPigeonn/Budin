@@ -8,8 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.budinbudin.R;
+import com.example.budinbudin.home_screen;
+import com.example.budinbudin.inti_budin;
 import com.example.budinbudin.saraf.neuron.jenis_jenis_neuron;
 import com.example.budinbudin.saraf.sistem_saraf_menu;
+import com.example.budinbudin.saraf.sistem_saraf_tepi.sistem_saraf_tepi;
 import com.example.budinbudin.sistem_indra.hidung.fungsi_hidung;
 import com.example.budinbudin.sistem_indra.lidah.area_lidah;
 import com.example.budinbudin.sistem_indra.mata.cara_kerja_mata;
@@ -27,6 +30,24 @@ public class sistem_indra_menu extends AppCompatActivity {
         Button lidah = findViewById(R.id.button_lidah);
         Button kulit = findViewById(R.id.button_kulit);
         Button telinga = findViewById(R.id.button_telinga);
+
+        Button home = findViewById(R.id.home_button);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(sistem_indra_menu.this, home_screen.class));
+                finish();
+            }
+        });
+
+        Button back = findViewById(R.id.back_button);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(sistem_indra_menu.this, inti_budin.class));
+                finish();
+            }
+        });
 
         mata.setOnClickListener(new View.OnClickListener() {
             @Override

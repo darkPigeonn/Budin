@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.budinbudin.R;
 import com.example.budinbudin.VideoYoutube;
+import com.example.budinbudin.home_screen;
 import com.example.budinbudin.saraf.impuls_saraf.impuls_saraf_gerak_refleks;
 import com.example.budinbudin.saraf.neuron.jenis_jenis_neuron;
 import com.example.budinbudin.saraf.neuron.sistem_saraf_neuron;
@@ -27,6 +28,15 @@ public class sistem_saraf_menu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onBackPressed();
+                finish();
+            }
+        });
+
+        Button home = findViewById(R.id.home_button);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(sistem_saraf_menu.this, home_screen.class));
                 finish();
             }
         });
