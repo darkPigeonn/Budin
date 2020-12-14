@@ -14,6 +14,7 @@ import com.example.budinbudin.saraf.neuron.jenis_jenis_neuron;
 import com.example.budinbudin.saraf.sistem_saraf_menu;
 import com.example.budinbudin.saraf.sistem_saraf_tepi.sistem_saraf_tepi;
 import com.example.budinbudin.sistem_indra.hidung.fungsi_hidung;
+import com.example.budinbudin.sistem_indra.kulit.fungsi_kulit;
 import com.example.budinbudin.sistem_indra.lidah.area_lidah;
 import com.example.budinbudin.sistem_indra.mata.cara_kerja_mata;
 import com.example.budinbudin.sistem_indra.telinga.mekanisme_telinga;
@@ -73,7 +74,7 @@ public class sistem_indra_menu extends AppCompatActivity {
         kulit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(sistem_indra_menu.this, fungsi_hidung.class));
+                startActivity(new Intent(sistem_indra_menu.this, fungsi_kulit.class));
             }
         });
 

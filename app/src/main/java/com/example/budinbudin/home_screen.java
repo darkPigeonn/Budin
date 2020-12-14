@@ -70,12 +70,14 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
-//        button_lks.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(home_screen.this, inti_budin.class));
-//            }
-//        });
+       button_lks.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/14XLWzpJAyWRssCF-QI-EOI9IApu8wja0/view?usp=sharing"));
+               startActivity(implicit);
+           }
+
+            });
 
         button_petaKonsep.setOnClickListener(new View.OnClickListener() {
             @Override
