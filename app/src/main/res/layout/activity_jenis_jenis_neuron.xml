@@ -55,25 +55,121 @@
     <LinearLayout
         android:id="@+id/ln3"
         android:layout_below="@id/ln2"
-        android:layout_marginTop="80dp"
         android:paddingRight="20dp"
         android:paddingLeft="20dp"
-        android:paddingTop="20dp"
+        android:paddingTop="40dp"
         android:paddingBottom="20dp"
+		android:orientation="vertical"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="263dp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
             android:background="@drawable/image_jenis_neuron">
         </ImageView>
+
+		<LinearLayout
+			android:id="@+id/ln_text1_4"
+			android:layout_below="@id/ln_text1"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/jenisneuron1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/ln_text1_5"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_2"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/jenisneuron2"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ln_text1_2"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_3"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/jenisneuron3"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+
     </LinearLayout>
 
 

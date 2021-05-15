@@ -33,7 +33,7 @@ public class VideoYoutube extends AppCompatActivity {
 
         muatVideo();
 
-        Button back = findViewById(R.id.back_button);
+        Button back = findViewById(R.id.back_buttonn);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

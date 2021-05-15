@@ -77,13 +77,7 @@
         android:layout_width="wrap_content"
         android:paddingBottom="0dp"
         android:layout_marginBottom="140dp"
-        android:layout_height="wrap_content">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/comp_video_mekanisme_telinga">
-        </Button>
-    </LinearLayout>
+        android:layout_height="wrap_content"/>
 
     <LinearLayout
         android:id="@+id/ln5"
@@ -91,15 +85,7 @@
         android:layout_marginStart="322dp"
         android:layout_width="wrap_content"
         android:paddingBottom="20dp"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/forward_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_white"
-            android:scaleX="0.6">
-        </Button>
-    </LinearLayout>
+        android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>

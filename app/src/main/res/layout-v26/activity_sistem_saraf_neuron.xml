@@ -55,8 +55,140 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/ln2"
+		android:layout_marginTop="20dp"
         android:orientation="vertical"
         android:layout_marginEnd="20dp">
+		<LinearLayout
+			android:id="@+id/ln_text1_4"
+			android:layout_below="@id/ln_text1"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/pengantar_neuron_1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/ln_text1_5"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_2"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="Badan sel perikarion :"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/ln_text1_8"
+			android:layout_below="@id/ln_text1"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="50dp"
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/isipengantar1"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/ln_text1_9"
+			android:layout_below="@id/ln_text1_1"
+			android:layout_marginTop="0dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="50dp"
+			android:layout_centerHorizontal="true">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="10dp"
+				android:layout_marginStart="16dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/content_text_number_2"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginEnd="0dp"
+				android:layout_marginStart="0dp"
+				android:fontFamily="@font/segoeui"
+				android:justificationMode="inter_word"
+				android:text="@string/isipengantar2"
+				android:textColor="#FFFFFF"
+				android:textSize="17sp">
+			</TextView>
+		</LinearLayout>
     <LinearLayout
         android:id="@+id/ln_text1"
         android:layout_below="@id/ln2"
@@ -64,7 +196,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+		android:orientation="vertical"
         android:layout_centerHorizontal="false">
+
         <TextView
 
             android:layout_marginStart="3dp"

@@ -145,63 +145,21 @@
                     android:textStyle="bold"
                     android:textSize="17sp">
                 </TextView>
-                <TextView
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_3_"
-                    android:justificationMode="inter_word"
-                    android:textSize="18sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginBottom="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_4"
-                    android:justificationMode="inter_word"
-                    android:textStyle="bold"
-                    android:textSize="17sp">
-                </TextView>
-                <TextView
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_4_"
-                    android:justificationMode="inter_word"
-                    android:textSize="18sp">
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginBottom="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_5"
-                    android:justificationMode="inter_word"
-                    android:textStyle="bold"
-                    android:textSize="17sp">
-                </TextView>
-                <TextView
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_5_"
-                    android:justificationMode="inter_word"
-                    android:textSize="18sp">
-                </TextView>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginBottom="10dp"
+					android:fontFamily="@font/segoeui"
+					android:justificationMode="inter_word"
+					android:text="@string/content_text_fungsi_mata_3_"
+					android:textColor="#FFFFFF"
+					android:textSize="18sp"></TextView>
+
+
+
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_marginBottom="0dp"
@@ -317,48 +275,11 @@
                     android:justificationMode="inter_word"
                     android:textSize="18sp">
                 </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginBottom="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="start"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_12"
-                    android:justificationMode="inter_word"
-                    android:textStyle="bold"
-                    android:textSize="17sp">
-                </TextView>
-                <TextView
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/segoeui"
-                    android:textColor="#FFFFFF"
-                    android:text="@string/content_text_fungsi_mata_12_"
-                    android:justificationMode="inter_word"
-                    android:textSize="18sp">
-                </TextView>
+
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/ln5"
-        android:layout_below="@id/ln4"
-        android:layout_marginStart="322dp"
-        android:layout_width="wrap_content"
-        android:paddingBottom="20dp"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/forward_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/ic_arrow_forward_white"
-            android:scaleX="0.6">
-        </Button>
-    </LinearLayout>
 
 
 </RelativeLayout>

@@ -28,12 +28,15 @@
         android:layout_toEndOf="@id/ln1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <ImageView
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
-            android:background="@drawable/title_sel_neuroglial">
-        </ImageView>
+			android:text="Sel Neuroglia"
+			android:textColor="#ffffff"
+			android:textSize="20sp"
+            >
+        </TextView>
     </LinearLayout>
 
     <LinearLayout

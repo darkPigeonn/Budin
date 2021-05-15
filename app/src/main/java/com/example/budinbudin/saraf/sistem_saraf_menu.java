@@ -32,7 +32,7 @@ public class sistem_saraf_menu extends AppCompatActivity {
             }
         });
 
-        Button home = findViewById(R.id.home_button);
+        Button home = findViewById(R.id.home_buttonn);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

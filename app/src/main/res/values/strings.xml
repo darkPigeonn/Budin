@@ -15,18 +15,25 @@
     <string name="content_text_number_4">4.</string>
     <string name="content_text_number_5">5.</string>
 
-    //KATA PENGANTAR
-    <string name="content_katapengantar">\t\t\t\tPuji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa. Atas berkat limpahan rahmat dan karunia-Nya pula Buku Digital Interaktif dengan materi
-                                         sistem Regulasi kelas XI (kurikulum 2013) ini dapat diselesaikan. Semoga Tuhan Buku Digital Interaktif ini dapat digunakan dengan sebagaimana mestinya.
-                                         \n\n\t\t\t\tPembelajaran berbasis teknologi ini merupakan sebuah inovasi baru guna mempermudah siswa dan guru dalam pembelajaran baik dikelas maupun diluar kelas.
-                                         Inovasi ini dilihat dari peran android yang sangat mempengaruhi konsentrasi siswa dalam proses pembelajaran. Buku Digital Interaktif ini merupakan sebuah inovasi
-                                         baru buku dengan memanfaatkan teknologi masa kini. Buku Digital Interaktif akan membahasa secara menyeluruh materi sistem regulasi berdasarkan kurikulum 2013.
-                                         Buku Digital Interaktif diharapkan mampu menambah fokus siswa dalam memahami materi dan menerapkannya didalam kehidupan sehari-hari.
-                                         \n\n\t\t\t\tSaya menyadari bahwa Buku Digital Interaktif ini masih jauh dari sempurna baik dari bentuk penyusunan maupun materinya. Kritik dan saran dari pengguna sangat
+<!--    //KATA PENGANTAR-->
+    <string name="content_katapengantar">
+		\t\t\t\t Puji syukur kami panjatkan kehadirat Tuhan Yang Maha Esa. Atas berkat limpahan rahmat dan karuniaNya pula Buku Digital Interaktif dengan materi sisten Regulasi kelas XI (kurikulum 2013) ini dapat
+		diselesaikan. Semoga Buku Digital Interaktif ini dapat digunakan dengan sebagaiaman mestinya.
+
+		\n
+		\t\t\t\tPembelajaran berbasis teknologi merupakan sebuah inovasi baru guna mempermudah siswa dan guru
+dalam pembelajaran baik di kelas maupun di luar kelas. Inovasi ini dilihat dari peran android yang sangat
+mempengaruhi konsentrasi siswa dalam proses pembelajaran. Buku Digital Interaktif ini merupakan
+sebuah inovasi baru buku dengan memanfaatkan teknologi masa kini. Buku Digital Interakti membahasa
+secara menyeluruh materi sistem regulasi berdasarkan kurikulum 2013. Buku Digital Interaktif diharapkan
+mampu menambah fokus siswa dalam memahami materi dan menerapkannya di dalam kehidupan seharihari
+
+		\n
+		\t\t\t\tSaya menyadari bahwa Buku Digital Interaktif ini masih jauh dari sempurna baik dari bentuk penyusunan maupun materinya. Kritik dan saran dari pengguna sangat
                                          saya harapkan untuk penyempurnaan Buku Digital Interaktif. semoga Buku Digital Intraktif ini dapat memberikan manfaat kepada kita sekalian. Akhir kata saya
                                          mengucapakan terimakasih kepada semua pihak yang sudah membantu dalam penulisan dan penyusunan.</string>
 
-    //KOMPETENSI DASAR
+<!--    //KOMPETENSI DASAR-->
     <string name="content_kompetensi_dasar">Menganalisis hubungan antara struktur jaringan penyusun organ pada sistem koordinasi dan mengaitkannya dengan proses koordinasi sehingga dapat menjelaskan 
                                             peran saraf dan hormon dalam mekanisme koordinasi dan regulasi serta gangguan fungsi yang mungkin terjadi pada sistem koordinasi manusia melalui studi literatur, pengamatan, percobaan, dan simulasi.</string>
     <string name="content_kompetensi_dasarii">Menyajikan hasil analisis tentang kelainan pada struktur dan fungsi saraf dan hormon pada sistem koordinasi yang disebabkan oleh senyawa psikotropika yang
@@ -55,9 +62,16 @@
     <string name="content_text_medula_oblongata">Bagian yang menjulur dari pons hingga medula spinalis dengan panjang 2,5cm. Medula oblongata berfungsi dalam pengendalian frekuensi denyut jantung,
                                                  tekanan darah, pernapasan, gerakan alat pencernaan makanan, menelan, muntah, sekresi kelenjar pencernaan makanan, serta mengatur gerak refleks seperti
                                                  bersin, batuk dan berkedip.</string>
-    <string name="content_text_medula_spinalis">Medula spinalis berbentuk silinder yang memanjang dari batang otak medula oblongata hingga ruas kedua tulang pinggang panjang mitos finalis sekitar 45 cm
-                                                jika diameter 2 cm.  fungsinya untuk mengendalikan berbagai aktivitas refleks dalam tubuh komunikasi antara otak dengan semua bagian tubuh serta menghantar
-                                                rangsangan koordinasi antara otot dan sendi ke cerebellum.</string>
+    <string name="content_text_medula_spinalis">Medula spinalis berbentuk silinder yang
+memanjang dari batang otak, medula
+oblongata hingga ruas kedua tulang
+pinggang, panjang medula spinalis sekitar
+45 cm dengan diameter 2 cm. Fungsinya
+untuk mengendalikan berbagai aktivitas
+refleks dalam tubuh komunikasi antara
+otak dengan semua bagian tubuh serta
+menghantar rangsangan koordinasi antara
+otot dan sendi ke cerebellum.</string>
     <!--Struktur Bagian Dalam-->
     <string name="content_text_struktur_dalam1">Tanduk abu-abu posterior (dorsal) \nMengandung badan sel yang menerima impuls melalui saraf spinal dari neuron sensor.</string>
     <string name="content_text_struktur_dalam2">Tanduk abu-abu anterior (ventral) \nBatang vertikal bawah mengandung neuron motor yang aksonnya mengirimkan impuls melalui saraf spinal ke otot dan kelenjar.</string>
@@ -78,9 +92,20 @@
     <string name="content_text_pons_varolii">Hampir seluruh bagiannya tersusun dari substansi putih yang berisi serabut saraf yang menghubungkan otak kecil kiri dengan otak kecil kanan, serta
                                              menghubungkan otak besar dan sumsum tulang belakang. Pons varolii berfungsi untuk mengatur frekuensi dan kekuatan bernapas.</string>
     <!--Sistem Saraf Pusat-->
-    <string name="content_text_sistem_saraf_pusat">Otak manusia diperkirakan mencapai 2% dari keseluruhan tubuh mengonsumsi 25% oksigen menerima 1,5% darah dari jantung.  otak manusia tersusun dari
-                                                   100 miliar neuron yang terhubung oleh sinapsis dan membentuk anyaman kelompok. Neuron di otak berkomunikasi secara kimiawi atau berupa muatan listrik
-                                                   agar kita mengalami emosi berpikir danmengingat, mengetahui dan mengatur keadaan tubuh sendiri dan lingkungannya serta secara sadar mengontrol gerakan tubuh.</string>
+    <string name="content_text_sistem_saraf_pusat">Otak manusia diperkirakan mencapai
+2% dari keseluruhan tubuh,
+mengonsumsi 25% oksigen dan
+menerima 1,5% darah dari jantung.
+Otak manusia tersusundari 100 miliar
+neuron, yang terhubung oleh sinapsis
+dan membentuk anyaman kelompok,
+neuron di otak berkomunikasi secara
+kimiawi atau berupa muatan listrik
+agar kita mengalami emosi berpikir
+dan mengingat,mengetahui dan
+mengatur keadaan tubuh sendiridan
+lingkungannya serta secara sadar
+mengontrol gerakan tubuh.</string>
     <!--Serebrum-->
     <string name="content_text_serebrum">Korteks serebal, menempati 80% dari total masa otak, ketebalan 5mm, serta memiliki pelekukan yang meningkatkan luas permukaan nya sekitar 1000cm² sering dikaitkan
                                          dengan kecerdasan.
@@ -121,14 +146,14 @@
 
 
     <!--SEL NEUROGLIAL-->
-    <string name="content_text_neuroglial_1">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.\nJenis-jenis sel neuroglial:</string>
-    <string name="content_text_neuroglial_2">Astrosis</string>
+    <string name="content_text_neuroglial_1">Sel Neuroglia adalah sel penunjang pada susunan saraf pusat. Fungsinya sebagai jaringan ikat dan mampu membelah secara mitosis.\nJenis-jenis sel neuroglial:</string>
+	<string name="content_text_neuroglial_2"><b>Astrosis</b></string>
     <string name="content_text_neuroglial_3">Berbentuk bintang dan berfungsi sebagai lem yang menyatukan neuron-neuron </string>
-    <string name="content_text_neuroglial_4">Oligodendrosit (Olegodebdroglia)</string>
-    <string name="content_text_neuroglial_5">Menyerupi astrosit tetapi lebih kecil, membentuk lapisan meilin untuk melapisi akson</string>
-    <string name="content_text_neuroglial_6">Sel Ependima</string>
-    <string name="content_text_neuroglial_7">Membrane epitelium yang melapisi rongga serebral dan medulla spinalis</string>
-    <string name="content_text_neuroglial_8">Mikrogila</string>
+	<string name="content_text_neuroglial_4"><b>Oligodendrosit (Olegodendroglia)</b></string>
+    <string name="content_text_neuroglial_5">Menyerupai astrosit tetapi lebih kecil, membentuk lapisan meilin untuk melapisi akson</string>
+	<string name="content_text_neuroglial_6"><b>Sel Ependima</b></string>
+    <string name="content_text_neuroglial_7">Membran epitelium yang melapisi rongga serebral dan medulla spinalis</string>
+	<string name="content_text_neuroglial_8"><b>Mikroglia</b></string>
     <string name="content_text_neuroglial_9">Bersifat fagosit dan ukuran paling kecil dan berfungsi pertahanan imun</string>
 
 
@@ -150,40 +175,53 @@
         dan kaki) memiliki ketebalan antara 75 hingga 150 µm.\n</string>
     <string name="context_text_kulit_2">Dermis</string>
     <string name="context_text_kulit_2_">Dermis adalah lapisan kulit antara epidermis (dengan yang itu membuat para kutis) dan jaringan subkutan, yang terdiri dari jaringan ikat dan bantal tubuh
-        dari stres dan ketegangan.\n</string>
-    <string name="context_text_kulit_3">Korpuskala Ruffini</string>
+        dari stres dan ketegangan.\n
+		Dermis meliputi :
+	</string>
+    <string name="context_text_kulit_3">1. Korpuskala Ruffini</string>
     <string name="context_text_kulit_3_">Berperan sebagai reseptor tekanan dan tegangan di sekitar jaringan ikat korpuskula ruffini terdapat di bagian dermis.\n</string>
-    <string name="context_text_kulit_4">Korpuskala Pacini</string>
+    <string name="context_text_kulit_4">2. Korpuskala Pacini</string>
     <string name="context_text_kulit_4_">Mendeteksi tekanan yang dalam dan getaran reseptor ini berbentuk bulat atau lonjong memiliki panjang 2 mm serta berdiameter 0,5- 1 mm.  Korpuskula paccini
         terdapat di dari telapak tangan dan kaki.\n</string>
-    <string name="context_text_kulit_5">Cakram Merkel</string>
+    <string name="context_text_kulit_5">3. Cakram Merkel</string>
     <string name="context_text_kulit_5_">Mendeteksi sentuhan dan sebagai reseptor apa yang beradaptasi lambat misalnya Ketika seseorang memegang pena.  Dapat ditemukan pada kulit yang tidak berambut
         (misalnya pada ujung jari) dan diantara folikel rambut pada epidermis.\n</string>
-    <string name="context_text_kulit_6">Korpuskala Meissner</string>
+    <string name="context_text_kulit_6">4. Korpuskala Meissner</string>
     <string name="context_text_kulit_6_">Mendeteksi rangsangan berupa sentuhan. Korpuskula meissner berbentuk silinder dengan panjang 80 mikron dan lebar 40 mikron.\n</string>
     <string name="context_text_kulit_7">Rambut</string>
     <string name="context_text_kulit_7_">Bagian ini bisa menjadi alat sensor yang efektif untuk mendeteksi bahaya, misalnya dari bulu-bulu tumbuhan atau hewan yang bisa bikin gatal.</string>
 
     <!--Lidah-->
-    <string name="content_text_lidah">Lidah sebagai indera pengecap memiliki kemoreseptor (taste bud).  kuncup pengecap terdapat pada papila lidah, palatum (langit-langit) lunak, epiglotis
-        dan faring. Papila lidah dibagi menjadi empat macam:</string>
+    <string name="content_text_lidah">Lidah sebagai indera pengecap
+memiliki kemoreseptor (tastebud). kuncup pengecapterdapat pada papila lidah,palatum (langit-langit) lunak,epiglotis dan faring.</string>
     <string name="content_text_lidah_1">Papila Filiformis\nBerbentuk kerucut, kecil, menutupi bagian dorsum lidah (permukaan atas) dan tidak mengandung kuncup pengecap.</string>
     <string name="content_text_lidah_2">Papila Fungiformis\nBerbentuk bulat, banyak terdapat di dekat ujung lidah mengandung 5 kuncup pengecap pada setiap papila.</string>
-    <string name="content_text_lidah_3">Papila Sirkumvata\nBerbentuk menonjol dan tersusun seperti huruf v, banyak terdapat di bagian belakang lidah serta mengunduh 100 kuncup pengecap.</string>
+    <string name="content_text_lidah_3">Papila Sirkumvalata\nBerbentuk menonjol dan tersusun seperti huruf v, banyak terdapat di bagian belakang lidah serta mengunduh 100 kuncup pengecap.</string>
     <string name="content_text_lidah_4">Papila Foliata\nBerbentuk seperti daun, terletak di bagian tepi pangkal lidah dan mengandung sekitar 1300 untuk mengecap di setiap lipatannya.</string>
 
     <!--Sistem Saraf Tepi-->
-    <string name="content_sistemsaraftepi_1">Sistem saraf tepi mengantarkan informasi ked an dari SSP dan berperan besar dalam meregulasi gerkan dan lingkungan internal. Secara structural, SST manusia dari pasangan kiri-kanan saraf kranial dan saraf spinal.</string>
-    <string name="content_sistemsaraftepi_1_">Saraf karnial (Cranial nerve)\nMenghubungkan otak dengan lokasi-lokasi yang sebagian besar terdapat dalam organ-organ dikepala pada tubuh bagia atas.</string>
+    <string name="content_sistemsaraftepi_1">Sistem saraf tepi mengantarkan informasi dari sistem
+saraf pusat (SSP) dan berperan besar dalam
+meregulasi gerakan dan lingkungan internal. Secara
+struktural, sistem saraf tepi (SST) manusia dari
+pasangan kiri-kanan saraf kranial dan saraf spinal.</string>
+	<string name="content_sistemsaraftepi_1_"><b>Saraf karnial (<i>Cranial nerve</i>)</b> \n
+		Menghubungkan otak dengan lokasi-lokasi
+yang sebagian besar terdapat dalam organ-organ
+dikepala pada tubuh bagian atas.</string>
     <string name="content_sistemsaraftepi_2">Saraf Spinal (spinal nerve/saraf tulang belakang)</string>
     <string name="content_sistemsaraftepi_2_">Membentang diantara sumsum tulang belakang dan bagian tubuh di bawah kepala. Informasi sensoris mencapai SSP di sepanjang neuron-neuron SSP yang dikenal sebagai divisi aferen (afferent dari kata latin yang berarti membawa ke arah)membawa informasi dari reseptor yang terletak pada bagian eksternal tubuh atau reseptor somatik misalnya kulit merasakan dingin maupun bagian internal tubuh yaitu lambung merasakan lapar. Divisi Eferen (efferent, Dari kata latin yang berarti membawa menjauh).
         \n\nSistem saraf aferen dibagi menjadi dua sistem saraf somatik dan sistem saraf otonom.  saraf somatik terdiri atas serat-serat neuron motor yang terdapat pada otot rangka.  sistem saraf otonom dibagi menjadi dua jenis berdasarkan fungsinya yaitu sistem saraf simpatis dan sistem saraf parasimpatis.</string>
     <!--NAPZA-->
-    <string name="content_golongan_halusinogen">Mengacaukan system saraf pusat, memberikan pengaruh halusinasi (melihat suatu hal/benda yang sebenarnya tidak ada) yang berlebihan. Dan semakin lama membuat perasaan khawatir berlebihan (paranoid). Contohnya : ganja (dalam jumlah sedikit), bunga kecubung, lem, bensin, dan jamur kotoran sapi ( contohnya:panaeolus cyanesce mengandung zat psilosibin dan psilosin).</string>
+    <string name="content_golongan_halusinogen">Mengacaukan sistem saraf pusat, memberikan pengaruh halusinasi (melihat suatu hal/benda yang sebenarnya tidak ada) yang berlebihan. Dan semakin lama membuat perasaan khawatir berlebihan (paranoid). Contohnya : ganja (dalam jumlah sedikit), bunga kecubung, lem, bensin, dan jamur kotoran sapi ( contohnya:panaeolus cyanesce mengandung zat psilosibin dan psilosin).</string>
 
     <!--FUNGSI MATA-->
     <string name="content_text_fungsi_mata_1">Sklera</string>
-    <string name="content_text_fungsi_mata_1_">Bagian dinding mata yang tersusun dari jaringan ikat fibrosa berwarna putih memberikan bentuk pada bola mata dan sebagai tempat perlekatan otot ekstrinsik.</string>
+    <string name="content_text_fungsi_mata_1_">Bagian dinding mata yang tersusun
+dari jaringan ikat fibrosa berwarna
+putih, memberikan bentuk pada bola
+mata, dan sebagai tempat
+melekatanya otot ekstrinsik.</string>
 
     <string name="content_text_fungsi_mata_2">Koroid</string>
     <string name="content_text_fungsi_mata_2_">Koroid bagian yang tertib mentasi untuk mencegah refleksi internal berkas cahaya dan mengandung banyak pembuluh darah untuk memberikan nutrisi.</string>
@@ -221,7 +259,9 @@
 
     <!--TELINGA-->
     <string name="content_text_telinga_1">Daun Telinga</string>
-    <string name="content_text_telinga_1_">Pinna auricula yaitu daun kartilago yang menangkap gelombang bunyi untuk diteruskan ke kanal auditori eksternal (meatus) yang panjangnya sekitar 2,5 cm hingga Membran timpanum.</string>
+    <string name="content_text_telinga_1_">Daun
+telinga tersusun atas tulang
+rawan (kartilago) yang menangkap gelombang bunyi untuk diteruskan ke kanal auditori eksternal (meatus) yang panjangnya sekitar 2,5 cm hingga Membran timpanum.</string>
 
     <string name="content_text_telinga_2">Gendang Teling (membrane timpani)</string>
     <string name="content_text_telinga_2_">Membran timpani atau gendang pendengar merupakan perbatasan antara bagian luar dengan bagian tengah telinga yang berbentuk kerucut.</string>
@@ -236,7 +276,17 @@
     <string name="content_text_telinga_5_">Jendela bulat pada telinga berfungsi untuk menyalurkan suara yang terdengar dan suara yang masuk ke otak.</string>
 
     <string name="content_text_telinga_6">Osikel Auditori</string>
-    <string name="content_text_telinga_6_">Osikel Auditori meliputi tiga tulang pendengaran yaitu malleus (martil) inkus (landasan) dan stapes (sanggurdi).  tulang pendengaran berfungsi mengarahkan getaran dari membran timpani ke fenestra vestibuli (tingkap oval) yang membatasi telinga bagian tengah dengan bagian dalam.</string>
+    <string name="content_text_telinga_6_">Osikel Auditori meliputi tiga
+tulang pendengaran, yaitu
+malleus (martil), inkus
+(landasan),dan stapes
+(sanggurdi). Tulang
+pendengaran berfungsi
+mengarahkan getaran dari
+membran timpani ke fenestra
+vestibuli (tingkap oval) yang
+membatasi telinga bagian
+tengah dengan bagian dalam.</string>
 
     <string name="content_text_telinga_7">Saluran setengah lingkaran</string>
     <string name="content_text_telinga_7_">menjaga keseimbangan tubuh.</string>
@@ -326,7 +376,14 @@
 
     <!--IMPULS SARAF GERAK SADAR-->
     <string name="content_text_Isaraf_1">Saraf</string>
-    <string name="content_text_Isaraf_1_">Saraf adalah ransangan yang diterima oleh reseptor dari lingkungan luar dibawa oleh neuron yang menjadi serabut saraf. Contoh impuls yaitu perubahan suhu, tekanan, bau, aroma, suara benda yang menarik perhatian dan berbagai rasa seperti asin, manis, asam, dan pahit</string>
+    <string name="content_text_Isaraf_1_">Impuls saraf dalah rangsangan /pesan
+yang diterima oleh reseptor dari
+lingkungan luar dibawa oleh neuron
+yang menjadi serabut saraf. Contoh
+implus yaitu perubahan suhu, tekanan,
+bau, aroma, suara benda yang menarik
+perhatian dan berbagai rasa seperti
+asin, manis, asam dan pahit.</string>
 
     <string name="content_text_Isaraf_2">Gerak Sadar</string>
     <string name="content_text_Isaraf_2_">Contohnya gerakan memegang buku saat ingin belajar atau mengambil pensil saat ingin menulis.</string>
@@ -350,8 +407,15 @@
     <!--GOLONGAN DEPRESAN-->
     <string name="content_text_goldepresan_1">Senyama golongan depresan, yaitu:</string>
     <string name="content_text_goldepresan_2">Opiat</string>
-    <string name="content_text_goldepresan_3">Meliputi opium, morfin, heroin, kodoin, dan metadon. Opiat dapat menimbulkan perasaan "high" untuk sesaat, lalu nyaman dan tenang (seperti mengantuk). Opiat dapat menyebabkan kematian jika overdosis (OD).</string>
-    <string name="content_text_goldepresan_4">Barbiturat</string>
+	<string name="content_text_goldepresan_3">Meliputi opium, morfin,
+heroin, kodoin, dan metadon.
+Opiat dapat menimbulkan
+perasaan berlebihan sesaat
+lalu nyaman dan tenang
+(mengantuk). Opiat dapat
+menyebabkan kematian jiwa
+overdosis (OD).</string>
+	<string name="content_text_goldepresan_4">Barbiturat</string>
     <string name="content_text_goldepresan_5">Meliputi valium, lexotan, mandrax, rohypnol, luminal, dan librium. Barbiturat memberikan efek mengantuk dan tertidur tergantung pada dosis yang digunakan.</string>
     <string name="content_text_goldepresan_6">Alkohol</string>
     <string name="content_text_goldepresan_7">Penggunaan dalam jumlah banyak akan menyebabkan pandangan kabur, bicara tidak jelas, pusing hingga tak sadarkan diri, menghambat kemampuan mental dan menurunkan daya ingat.</string>
@@ -360,8 +424,19 @@
 
 
     <!--GOLONGAN STIMULAN-->
-    <string name="content_text_golstimulan_1">Golongan Stimulan dapat merangsang sistem saraf pusat yang menyebabkan organ tubuh seperti jantung dan otak terlalu cepat sehingga mengakibatkan penggunanya lebih bertenaga kita cenderung lebih senang dan gembira untuk sementara waktu.  senyawa yang termasuk golongan stimulan yaitu :</string>
-    <string name="content_text_golstimulan_2">Amfetamin (Amphetamine)</string>
+	<string name="content_text_golstimulan_1">Golongan Stimulan, dapat
+merangsang sistem saraf pusat
+yang menyebabkan organ
+tubuh (seperti jantung dan
+otak) bekerja lebih cepat
+sehingga mengakibatkan
+penggunanya lebih bertenaga
+serta cenderung lebih senang
+dan gembira untuk sementara
+waktu. senyawa yang
+termasuk golongan stimulan
+yaitu : </string>
+	<string name="content_text_golstimulan_2">Amfetamin (Amphetamine)</string>
     <string name="content_text_golstimulan_3">Meliputi dextroamphetamin , metamphetamine / sabu-sabu, Ritalin, dan dexedrine. Amfetamin memberi efek tidak cepat lelah, merasa bersemangat, menurunkan nafsu makan (tidak lapar), sulit tidur, perasaan mudah tersinggung, gugup, keringat digin dan hipertensi. Jika terud menerus digunakan akan menyebabakan ketergantungan dan kematian.</string>
     <string name="content_text_golstimulan_4">Ekstasi (Extasy)</string>
     <string name="content_text_golstimulan_5">Mendorong tubuh untuk melakukan aktivias yang melampaui batas maksimum dari kekuatan tubuh. Ekstasi dapat menyebabkan diare, rasa haus yang berlebihan, hiperaktif, sakit kepala dan pusing, mengigil, detak jantung cepat, mual,muntah, hilang nafsu makan, gelisah, pucat, berkeringat, dehidrasi, kecanduan, saraf otak terganggu, gangguan hati, serta tulang dan gigi keropos.</string>
@@ -385,9 +460,16 @@
 
 
     <!--SINAPSIS-->
-    <string name="content_text_sinapsis">Sinapsis adalah tempat bertemunya setiap Neuron, titik temu antara ujung akson dengan dendrit lainnya serta hubungan ke otot dan kekelenjar. Struktur Sinaps terbagi menjadi bagian yaitu Prasinaps (bagian akson terminal), Celah sinaps (ruang anatar prasinaps dan pasaca sinaps) dan Pasca sinaps (bagian dendrit).</string>
-
-
+	<string name="content_text_sinapsis">Sinapsis adalah tempat
+bertemunya setiap Neuron, titik temu
+antara ujung akson dengan dendrit
+lainnya serta hubungan ke otot dan
+menuju kelenjar. Struktur Sinaps
+terbagi menjadi bagian yaitu Prasinaps
+(bagian akson terminal), Celah sinaps
+(ruang antara prasinaps dan pasca
+sinaps) dan Pasca sinaps (bagian
+dendrit).</string>
     <!--KARAKTERISTIK ENDOKRIN-->
     <string name="content_text_endokrin_1">Merupakan kelenjar buntu, karena tidak memiliki saluran (duktus) dan menyekresikan hormone langsung kedalam cairan disekitar Sel-sel. </string>
     <string name="content_text_endokrin_2">Pada umumnya menyekresi lebih dari satu jenis hormone kecuali kelenjar paratiroid yang hanya menyekresi hormone paratiroid</string>
@@ -415,4 +497,10 @@
     <string name="title_gangguan_pada_telinga">Gangguan Pada Telinga</string>
     <string name="title_impuls_saraf_gerak_sadar_dan_refleks">Impuls Saraf, Gerak Sadar, dan Refleks</string>
     <string name="indikator">Indikator</string>
+	<string name="pengantar_neuron_1">Sel saraf atau <i>neuron</i> adalah sel yang mengantarkan impuls “rangsangan” dari reseptor “panca indera” ke otak dan sebaliknya. Sel saraf atau yang biasa disebut dengan neuron, juga bertanggung jawab atas gerak refleks.</string>
+	<string name="isipengantar1">Mengendalikan metabolism keseluruh neuron. Badan sel memiliki nucleus (inti) di tengah dan nucleolus yang menonjol.</string>
+	<string name="isipengantar2">Sitoplasma mengandung badan nissl, berupa tumpukan reticulum endoplasma granuler dan ribosom yang berfungsi untuk sintesis protein.</string>
+	<string name="jenisneuron1">Neuron unipolar, merupakan neuron bipolar yang tampak hany memiliki satu juluran dari badan sel karena akson dan dendritnya berfusi. Contohnya, neuron pada embrio dan fotoreseptor</string>
+	<string name="jenisneuron2">Neuron bipolar, mimiliki dua juluran berupa densdrit dan akson. Contohnya, neuron pada organ indera seperti mata, hidung dan telinga</string>
+	<string name="jenisneuron3">Neuron multipolar, memiliki satu akson dan dua dendrit atau lebih. Contohnya, neuron motor yang terdapat di otak dan medulla spinalis(sumsum tulang belakang)</string>
 </resources>
